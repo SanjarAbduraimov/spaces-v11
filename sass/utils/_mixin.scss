@@ -6,10 +6,22 @@
   min-width: auto;
   min-height: auto;
 }
-@mixin flexbox($fd: row, $jc: flex-start, $ai: stretch, $istalgan...) {
+@mixin flexbox(
+  $fd: row,
+  $jc: flex-start,
+  $ai: stretch,
+  $fw: nowrap,
+  $istalgan...
+) {
   display: flex;
   flex-direction: $fd;
   justify-content: $jc;
   align-items: $ai;
-  color: $istalgan;
+  flex-wrap: nowrap;
+}
+
+@mixin mediaquery($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
 }

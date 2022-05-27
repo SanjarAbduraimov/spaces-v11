@@ -1,15 +1,19 @@
 .container {
-  max-width: 960px;
+  width: 100%;
+  padding: 20px;
   margin: auto;
-  border: 1px solid;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+.row > div {
+  flex: 0 0 100%;
+  padding: 10px;
+}
 
 .col {
-  flex: 0 0 100%;
+  flex: 1;
   padding: 10px;
 }
 
@@ -22,8 +26,15 @@ $breakpoints: (
   "xxl": 1400px,
 );
 
+@each $mq in (sm, md, lg, xl, xxl) {
+  @media screen and (min-width: map-get($breakpoints, $mq)) {
+    .container {
+      max-width: map-get($breakpoints, $mq) - 4.8 * 10px;
+    }
+  }
+}
 @for $i from 1 through $gridColumns {
-  .col-#{$i} {
+  .row .col-#{$i} {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: #{100% / $gridColumns * $i};
@@ -51,7 +62,7 @@ $breakpoints: (
 @each $mq in (sm, md, lg, xl, xxl) {
   @media screen and (min-width: map-get($breakpoints, $mq)) {
     @for $i from 1 through $gridColumns {
-      .col-#{$mq}-#{$i} {
+      .row .col-#{$mq}-#{$i} {
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: #{100% / $gridColumns * $i};

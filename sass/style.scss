@@ -4,30 +4,8 @@
 @import "./base/reset";
 @import "./layout/grid";
 @import "./components/index";
-nav {
-  @include flexbox(row, center, flex-end, red, blue);
-  @include box;
-}
-.istalgan {
-  @include flexbox();
-}
-
 .box {
-  content: myFunc(2, 9);
-  //   @include flexbox;
-  color: invert(red, 0);
-}
-
-.btn {
-  outline: 1px solid red;
-  color: antiquewhite;
-}
-%sanjar {
-  color: red;
-  content: maktabGaBorish(1, 1);
-}
-.btn__primary {
-  @extend %sanjar;
-  @extend .btn;
-  background: red;
+  @include mediaquery(768px) {
+    color: red;
+  }
 }

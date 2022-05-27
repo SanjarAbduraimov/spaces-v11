@@ -1,11 +1,16 @@
 $mainWhite: #ffffff;
 $mainBlack: #000000 !default;
 $mainRed: #ff0000;
+$secondary: #eee;
 $mainGreen: #00ff00;
 $mainBlue: #0000ff;
+$mainYellow: #ffff00;
+$secondaryBlue: #00ff1a;
 $gridGutter: 30px;
 $gridColumns: 12;
 $spacingCount: 5;
+$shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
 // $gridColumnWidth: (100% / $gridColumns);
 // $gridColumnWidthMinusGutter: ($gridColumnWidth - $gridGutter);
 // $gridColumnWidthMinusGutterMinusGutter: (

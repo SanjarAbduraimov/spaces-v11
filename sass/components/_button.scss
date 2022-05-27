@@ -20,32 +20,38 @@
   border-radius: 4px;
 }
 
-.btn__primary {
-  @extend .btn;
-  color: #fff;
-  background-color: $mainBlue;
-  border-color: #2e6da4;
-  &:hover {
-    background: #2e6da4;
-  }
-}
-.btn__secondary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  &:hover {
-    background: #2e6da4;
-  }
-}
-
-
 $btnColor: (
-  "primary": #337ab7,
-  "secondary": rgb(204, 204, 204),
-  "danger": #d9534f,
+  "primary": $mainBlue,
+  "secondary": $secondary,
+  "danger": $mainRed,
+  "warning": $mainYellow,
+  "info": $secondaryBlue,
+  "light": $mainWhite,
 );
 
+@each $type in (primary, secondary, danger, warning, info, light) {
+  .btn__#{$type} {
+    @extend .btn;
+    background-color: map-get($btnColor, $type);
+    border-color: map-get($btnColor, $type);
+    &:hover {
+      background: darken($color: map-get($btnColor, $type), $amount: 10%);
+      color: $mainWhite;
+    }
+    @if $type == light {
+      color: $mainBlack;
+    } @else if $type == info {
+      color: $mainBlack;
+    } @else if $type == warning {
+      color: $mainBlack;
+    } @else {
+      color: $mainWhite;
+    }
+  }
+}
+
 .btn__outline {
+  @extend .btn;
   background: transparent;
   border: 1px solid inherit;
   color: inherit;
