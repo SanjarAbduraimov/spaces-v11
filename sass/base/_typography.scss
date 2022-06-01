@@ -1,0 +1,26 @@
+$textColor: (
+  "primary": $mainBlue,
+  "secondary": $secondary,
+  "danger": $mainRed,
+  "warning": $mainYellow,
+  "info": $secondaryBlue,
+  "light": $mainWhite,
+  "muted": $secondaryWhite,
+);
+@each $color in (primary, secondary, danger, warning, info, light, muted) {
+  .text__#{$color} {
+    // @extend .text;
+    color: map-get($textColor, $color);
+  }
+}
+// .text__danger {
+//   color: $mainRed;
+// }
+// .text__success {
+//   color: $mainGreen;
+// }
+// .text__success {
+//   color: $mainGreen;
+// }
+// .text__warning {
+// }

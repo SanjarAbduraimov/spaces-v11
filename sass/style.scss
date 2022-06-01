@@ -2,10 +2,7 @@
 @import "utils/functions";
 @import "./utils/variables";
 @import "./base/reset";
+@import "./base/typography";
 @import "./layout/grid";
 @import "./components/index";
-.box {
-  @include mediaquery(768px) {
-    color: red;
-  }
-}
+@import "./pages/index";

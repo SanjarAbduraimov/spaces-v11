@@ -1,3 +1,4 @@
+@import url($mainFont);
 *,
 *::after,
 *::before {
@@ -10,4 +11,14 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+

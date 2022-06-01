@@ -1,10 +1,10 @@
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 1rem 1.6rem;
   margin-bottom: 0;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.42857143;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -18,6 +18,9 @@
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
 
 $btnColor: (
@@ -37,6 +40,10 @@ $btnColor: (
     &:hover {
       background: darken($color: map-get($btnColor, $type), $amount: 10%);
       color: $mainWhite;
+      @if $type == light {
+        color: $mainBlue;
+        background-color: $mainWhite;
+      }
     }
     @if $type == light {
       color: $mainBlack;
@@ -55,4 +62,10 @@ $btnColor: (
   background: transparent;
   border: 1px solid inherit;
   color: inherit;
+}
+.animate__up {
+  transition: all 0.2s ease;
+}
+.animate__up:hover {
+  transform: translateY(-3px);
 }

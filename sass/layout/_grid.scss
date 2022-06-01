@@ -47,11 +47,21 @@ $breakpoints: (
   }
 }
 
-// @for $i from 0 through $spacingCount {
-//   .p-#{$i} {
-//     margin: $i * 0.75rem;
-//   }
-// }
+@for $i from 0 through $spacingCount {
+  .mt-#{$i} {
+    margin-top: $i * 0.75rem;
+  }
+}
+@for $i from 0 through $spacingCount {
+  .mb-#{$i} {
+    margin-bottom: $i * 0.75rem;
+  }
+}
+@for $i from 0 through $spacingCount {
+  .mr-#{$i} {
+    margin-right: $i * 0.75rem;
+  }
+}
 
 // @for $i from 0 through $spacingCount {
 //   .pe-#{$i} {
