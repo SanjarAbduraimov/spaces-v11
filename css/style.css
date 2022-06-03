@@ -1331,6 +1331,34 @@ section.hero .fill-white {
   display: inline-block;
 }
 
+section.hero {
+  position: relative;
+  background-color: #0d1b48;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+section.hero .hero__text {
+  color: #ffffff;
+}
+
+.facebook {
+  color: #3b5999;
+}
+
+.slack {
+  color: #3aaf85;
+}
+
+.dribbble {
+  color: #1da1f2;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
 body {
   position: relative;
 }
