@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/pages/landing3.scss"
+    ],
+    "names": [],
+    "file": "landing3.css"
+}
