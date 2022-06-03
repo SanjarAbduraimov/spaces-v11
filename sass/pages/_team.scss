@@ -1,0 +1,22 @@
+section.hero {
+    position: relative;
+    background-color: $mainBlue;
+    color: $mainWhite;
+    padding: 2rem 0;
+    text-align: center;
+    .hero__text{
+        color: $mainWhite;
+    }
+}
+.facebook{
+    color: $facebook;
+}
+.slack{
+    color: $slack;
+}
+.dribbble{
+    color: $dribbble;
+}
+.twitter{
+    color: $twitter;
+}

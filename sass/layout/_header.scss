@@ -1,0 +1,90 @@
+.header {
+  height: 9rem;
+  width: 100%;
+  background-color: $mainBlue;
+}
+
+.landing {
+  background: transparent;
+}
+
+.navbar,
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  gap: 2rem;
+  color: $mainWhite;
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav__item {
+  padding: 7px;
+}
+
+.fa-angle-down {
+  margin: 0.5rem;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+.fa-bag-shopping,
+.fa-book {
+  margin-right: 0.7rem;
+}
+
+.nav__item:hover .fa-angle-down {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+.nav__item:hover .nav__dropdown {
+  display: block;
+}
+
+.nav__dropdown {
+  display: none;
+  position: absolute;
+  left: -18rem;
+  top: 6.3rem;
+  background-color: $mainWhite;
+  color: $mainBlue;
+  width: 550px;
+  height: 500px;
+  z-index: 1;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.drop__title {
+  margin-top: 2.5rem;
+}
+
+.drop__link {
+  margin-top: 1rem;
+  display: block;
+  &:hover {
+    color: $mainRed;
+  }
+}
+
+.nav__logo {
+  width: 13rem;
+  margin-top: 0.5rem;
+}
+
+.nav__menu {
+  justify-content: center;
+}
+
+.logo__drop {
+  left: -6rem;
+  top: 6.5rem;
+  pointer-events: auto;
+}
+
+.btn__docs {
+  background: scroll;
+}
