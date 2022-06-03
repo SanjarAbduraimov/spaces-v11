@@ -1331,10 +1331,25 @@ section.hero .fill-white {
   display: inline-block;
 }
 
-.hero {
+body {
+  position: relative;
+}
+
+.hero__landing {
   background-image: url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
   background-size: cover;
-  background-position: top;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.hero__landing {
+  content: "";
+  background: rgba(46, 69, 43, 0.5);
+  z-index: -1;
 }
 
 .section__title {
@@ -1362,7 +1377,7 @@ section.hero .fill-white {
 }
 
 .landing {
-  background: scroll;
+  background: transparent;
 }
 
 .navbar,
@@ -1420,7 +1435,7 @@ section.hero .fill-white {
   color: #0d1b48;
   width: 550px;
   height: 500px;
-  z-index: 5;
+  z-index: 1;
   padding: 2rem;
   border-radius: 1rem;
 }
