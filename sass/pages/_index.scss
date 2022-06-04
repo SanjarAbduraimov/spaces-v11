@@ -2,21 +2,6 @@
 @import "./team";
 @import "./landing";
 @import "./landing2";
-@import "./landing3.scss";
-
-.section__title {
-  font-size: 3.2rem;
-  line-height: 4.2rem;
-  color: $mainBlue;
-}
-.section__subtitle {
-  font-size: 2rem;
-  line-height: 3.2rem;
-  color: $secondaryBlue;
-}
-
-.section__text {
-  font-size: 1.5rem;
-  line-height: 2.6rem;
-  color: $secondaryBlue;
-}
+@import "./landing3";
+@import "./about";
+@import "./contact";

@@ -17,7 +17,6 @@
   flex-direction: $fd;
   justify-content: $jc;
   align-items: $ai;
-  flex-wrap: nowrap;
 }
 
 @mixin mediaquery($breakpoint) {
