@@ -49,7 +49,7 @@ ul {
 }
 
 .text__muted {
-  color: #e5e5e5;
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 
 .container {
@@ -1169,6 +1169,95 @@ ul {
   background: scroll;
 }
 
+.footer {
+  background-color: #0d1b48;
+  height: 65vh;
+  width: 100%;
+  padding: 7rem 0px;
+  text-align: center;
+}
+
+.footer__row {
+  text-align: start;
+}
+
+.footer__col-title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer__col-link {
+  display: block;
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+.footer__col-link:hover {
+  color: #c33c54;
+}
+
+.footer__col-btn {
+  margin-left: 0.5rem;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: #c33c54;
+  color: #ffffff;
+}
+
+.footer__col-text {
+  color: rgba(255, 255, 255, 0.7019607843);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+
+.footer__title {
+  color: #ffffff;
+  margin-top: 10rem;
+}
+
+.footer__btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer__btn {
+  padding: 0 0.9rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #0d1b48;
+  text-align: start;
+}
+.footer__btn:hover {
+  background-color: rgba(255, 255, 255, 0.7019607843);
+}
+
+.footer__btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-google-play {
+  font-size: 3rem;
+}
+
+.fa-apple {
+  font-size: 3.7rem;
+}
+
+.footer__icon-title {
+  font-size: 1.6rem;
+}
+
 section.hero {
   position: relative;
   background-color: #0d1b48;
@@ -1213,6 +1302,32 @@ section.hero .fill-white {
   color: #424767;
 }
 
+.hero__landing {
+  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero__about {
+  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70vh;
+  width: 100%;
+  z-index: -1;
+}
+
 section.hero {
   position: relative;
   background-color: #0d1b48;
@@ -1238,32 +1353,6 @@ section.hero .hero__text {
 
 .twitter {
   color: #1da1f2;
-}
-
-.hero__landing {
-  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 90vh;
-  width: 100%;
-  z-index: -1;
-}
-
-.hero__about {
-  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 70vh;
-  width: 100%;
-  z-index: -1;
 }
 
 .hero__contact {
