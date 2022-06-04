@@ -4,6 +4,23 @@
   background-color: $mainBlue;
 }
 
+.landing2__header {
+  height: 9rem;
+  width: 100%;
+  background-color: $secondary;
+}
+.landing2_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  gap: 2rem;
+  color: $mainBlue;
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: relative;
+}
+
 .navbar,
 .nav__menu {
   display: flex;
@@ -61,6 +78,7 @@
 .drop__link {
   margin-top: 1rem;
   display: block;
+  color: $secondaryBlue;
   &:hover {
     color: $mainRed;
   }
