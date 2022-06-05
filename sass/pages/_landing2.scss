@@ -1,1 +1,186 @@
+.hero__landing2 {
+  background-color: $secondary;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input-group-prepend {
+  margin-right: -2px;
+}
+group-prepend {
+  display: flex;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .6rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4e5079;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border: .0625rem solid #edf0f7;
+  border-radius: .45rem;
+}
 
+.landing2__flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@mixin xs {
+    @media (min-width: map-get($breakpoints, xs)) {
+     @content;
+   }
+ }
+ @mixin sm {
+   @media (min-width: map-get($breakpoints, sm)) {
+    @content;
+  }
+ }
+ @mixin  md {
+   @media (min-width: map-get($breakpoints, md)) {
+    @content;
+  }
+ }
+ @mixin lg {
+   @media (min-width: map-get($breakpoints, lg)) {
+    @content;
+  }
+ }
+ @mixin xl {
+   @media (min-width: map-get($breakpoints, xl)) {
+    @content;
+  }
+ }
+ @mixin xxl {
+   @media (min-width: map-get($breakpoints, xxl)) {
+    @content;
+  }
+ }
+ 
+ 
+ @mixin breakpoint($bp: 0) {
+   @media (min-width: $bp) {
+     @content;
+   }
+   
+ }
+ // container-m is Responsive 
+ .container-m {
+  @include xs {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto
+   }
+   @include sm {
+    width:calc(57.6rem - 3.6rem);
+    margin-right: 1.8rem;
+    margin-left: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+ }
+   @include md {
+    width:calc(76.8rem - 4.8rem);
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+ }
+   @include lg {
+    width:calc(99.2rem - 3.2rem);
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+   @include xl {
+    width: calc(120rem - 6rem);
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+   }
+    @include xxl {
+      width: calc(144rem - 24rem);
+      margin-right: 12rem;
+      margin-left: 12rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+  }
+ 
+ 
+ }
+ // end of container-m responsive
+ .containerss {
+   @include xs {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto
+   }
+ }
+ .container-sm {
+   @include sm {
+     width:calc(57.6rem - 3.6rem);
+     margin-right: 1.8rem;
+     margin-left: 1.8rem;
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+  }
+ }
+ .container-md {
+   @include md {
+     width:calc(76.8rem - 4.8rem);
+     margin-right: 2.4rem;
+     margin-left: 2.4rem;
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+  }
+ }
+ .container-lg {
+   @include lg {
+     width:calc(99.2rem - 3.2rem);
+     margin-right: 1.6rem;
+     margin-left: 1.6rem;
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+   }
+ }
+ .container-xl {
+   @include xl {
+     width: calc(120rem - 6rem);
+     margin-right: 3rem;
+     margin-left: 3rem;
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+    }
+ }
+ .container-xxl {
+   @include xxl {
+    width: calc(140rem - 30rem);
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+ }

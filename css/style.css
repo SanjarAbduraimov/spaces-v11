@@ -1315,6 +1315,163 @@ section.hero .fill-white {
   z-index: -1;
 }
 
+.hero__landing2 {
+  background-color: #f5f9fe;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group-prepend {
+  margin-right: -2px;
+}
+
+group-prepend {
+  display: flex;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4e5079;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 0.0625rem solid #edf0f7;
+  border-radius: 0.45rem;
+}
+
+.landing2__flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (min-width: 0) {
+  .container-m {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 576px) {
+  .container-m {
+    width: 54rem;
+    margin-right: 1.8rem;
+    margin-left: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .container-m {
+    width: 72rem;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .container-m {
+    width: 96rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container-m {
+    width: 114rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .container-m {
+    width: 120rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 0) {
+  .containerss {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-sm {
+    width: 54rem;
+    margin-right: 1.8rem;
+    margin-left: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-md {
+    width: 72rem;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-lg {
+    width: 96rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-xl {
+    width: 114rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl {
+    width: 110rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
 .hero__about {
   background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
   background-repeat: no-repeat;
