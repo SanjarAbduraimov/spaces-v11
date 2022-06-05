@@ -23,6 +23,30 @@
   }
 }
 
+.btn- {
+  display: inline-block;
+  padding: 1rem 1.6rem;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid $mainBlue;
+  border-radius: 4px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
 $btnColor: (
   "primary": $mainBlue,
   "secondary": $secondary,
@@ -63,9 +87,28 @@ $btnColor: (
   border: 1px solid inherit;
   color: inherit;
 }
+.btn__outline__smoll{
+  @extend .btn;
+  background: transparent;
+  border: 1px solid inherit;
+  
+}
+.btn__outline__smoll:hover{
+  background: $mainBlue;
+  color: $mainWhite;
+}
+ 
 .animate__up {
   transition: all 0.2s ease;
 }
+
 .animate__up:hover {
   transform: translateY(-3px);
+}
+.animate-up__box {
+  transition: all 0.2s ease;
+}
+.animate-up__box:hover {
+  padding: -25px;
+  transform: translateY(-10px);
 }
