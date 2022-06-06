@@ -7,11 +7,8 @@
     url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-position: top;
   height: 90vh;
   width: 100%;
-  z-index: -1;
+  margin-top: -9rem;
 }

@@ -4,6 +4,23 @@
   background-color: $mainBlue;
 }
 
+.header_landing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-color: $mainBlue;
+  width: 100%;
+}
+
+header.pinned {
+  transform: translateY(0%);
+  transition: transform 0.4s;
+}
+header.unpinned {
+  transform: translateY(-100%);
+  transition: transform 0.4s;
+}
 .landing2__header {
   height: 9rem;
   width: 100%;

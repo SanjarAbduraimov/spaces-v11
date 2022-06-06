@@ -1,12 +1,12 @@
 @use "sass:math";
 .container {
   width: 100%;
-  padding: 0 10rem;
+  padding: 0 0rem;
   margin: auto;
 }
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .row > div {
   flex: 0 0 100%;
