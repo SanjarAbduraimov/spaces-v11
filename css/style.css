@@ -29,7 +29,7 @@ ul {
 }
 
 .text__secondary {
-  color: #f5f9fe;
+  color: #eee;
 }
 
 .text__danger {
@@ -49,7 +49,7 @@ ul {
 }
 
 .text__muted {
-  color: rgba(255, 255, 255, 0.7019607843);
+  color: #e5e5e5;
 }
 
 .container {
@@ -60,7 +60,7 @@ ul {
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .row > div {
@@ -950,7 +950,6 @@ ul {
   justify-content: flex-start;
   align-items: stretch;
   flex-wrap: nowrap;
-  background-color: #ffffff;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -959,6 +958,40 @@ ul {
 }
 .card.shadow-lg {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
+}
+.card.card__overlay {
+  position: relative;
+  padding: 0;
+}
+.card.card__overlay .card__imgtop {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.card.card__overlay .card__imgtop > a {
+  width: 100%;
+}
+.card.card__overlay .card__body {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 10px;
+  color: #0d1b48;
+}
+.card.card__overlay .card__imgtop:hover {
+  transform: scale(1);
+}
+.card.card__overlay .card__imgtop:hover + .card__body {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.1s ease-in-out;
 }
 
 .btn, .btn__outline__smoll, .btn__outline, .btn__light, .btn__info, .btn__warning, .btn__danger, .btn__secondary, .btn__primary {
@@ -1022,12 +1055,12 @@ ul {
 }
 
 .btn__secondary {
-  background-color: #f5f9fe;
-  border-color: #f5f9fe;
+  background-color: #eee;
+  border-color: #eee;
   color: #ffffff;
 }
 .btn__secondary:hover {
-  background: #c7ddf9;
+  background: #d5d5d5;
   color: #ffffff;
 }
 
@@ -1118,13 +1151,28 @@ ul {
 }
 
 .header_landing {
-  background: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-color: #0d1b48;
+  width: 100%;
+}
+
+header.pinned {
+  transform: translateY(0%);
+  transition: transform 0.4s;
+}
+
+header.unpinned {
+  transform: translateY(-100%);
+  transition: transform 0.4s;
 }
 
 .landing2__header {
   height: 9rem;
   width: 100%;
-  background-color: #f5f9fe;
+  background-color: #eee;
 }
 
 .landing2_nav {
@@ -1261,7 +1309,7 @@ ul {
 }
 
 .footer__col-text {
-  color: rgba(255, 255, 255, 0.7019607843);
+  color: #e5e5e5;
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -1274,7 +1322,7 @@ ul {
 
 .footer__title {
   color: #ffffff;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .footer__btns {
@@ -1290,7 +1338,7 @@ ul {
   text-align: start;
 }
 .footer__btn:hover {
-  background-color: rgba(255, 255, 255, 0.7019607843);
+  background-color: #e5e5e5;
 }
 
 .footer__btn-icon {
@@ -1370,50 +1418,8 @@ section.hero .fill-white {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
-  width: 100%;
-  margin-top: -9rem;
-}
-
-section.hero {
-  background-color: #0d1b48;
-  color: #ffffff;
-  padding: 2rem 0;
-  text-align: center;
-}
-section.hero .hero__text {
-  color: #ffffff;
-}
-
-.facebook {
-  color: #3b5999;
-}
-
-.slack {
-  color: #3aaf85;
-}
-
-.dribbble {
-  color: #db4337;
-}
-
-.twitter {
-  color: #1da1f2;
-}
-
-.hero__contact {
-  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  width: 100%;
-  margin-top: -9rem;
-}
-
-.landing2 {
-  background-color: #ffffff;
-  color: #0d1b48;
+  min-height: 100vh;
+  padding-top: 9rem;
 }
 
 .section__title {
@@ -1507,7 +1513,8 @@ section.hero .hero__text {
   padding: 10rem;
 }
 
-.mapbooks, .dashboard {
+.mapbooks,
+.dashboard {
   background-color: rgb(245, 249, 254);
 }
 
@@ -1539,7 +1546,8 @@ section.hero .hero__text {
   color: #424767;
 }
 
-.text-primary, .text-primary:hover {
+.text-primary,
+.text-primary:hover {
   color: #0d1b48 !important;
 }
 
@@ -1552,7 +1560,7 @@ section.hero .hero__text {
 }
 
 .awesome {
-  background-color: #0D1B48;
+  background-color: #0d1b48;
 }
 
 .lead {
@@ -1576,7 +1584,7 @@ section.hero .hero__text {
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.1rem;
-  color: #0D1B48;
+  color: #0d1b48;
 }
 
 .bg-whitee {
@@ -1611,8 +1619,9 @@ section.hero .hero__text {
   float: right;
 }
 
-.active, .accordion:hover {
-  background-color: #F5F9FE;
+.active,
+.accordion:hover {
+  background-color: #f5f9fe;
 }
 
 .panel {
