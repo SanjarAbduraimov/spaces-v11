@@ -1068,6 +1068,10 @@ ul {
   background-color: #0d1b48;
 }
 
+.header_landing {
+  background: scroll;
+}
+
 .landing2__header {
   height: 9rem;
   width: 100%;
@@ -1259,7 +1263,6 @@ ul {
 }
 
 section.hero {
-  position: relative;
   background-color: #0d1b48;
   color: #ffffff;
   padding: 2rem 0;
@@ -1306,13 +1309,10 @@ section.hero .fill-white {
   background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-position: top;
   height: 90vh;
   width: 100%;
-  z-index: -1;
+  margin-top: -9rem;
 }
 
 .hero__about {
@@ -1320,16 +1320,12 @@ section.hero .fill-white {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 70vh;
   width: 100%;
-  z-index: -1;
+  margin-top: -9rem;
 }
 
 section.hero {
-  position: relative;
   background-color: #0d1b48;
   color: #ffffff;
   padding: 2rem 0;
@@ -1360,12 +1356,9 @@ section.hero .hero__text {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 80vh;
   width: 100%;
-  z-index: -1;
+  margin-top: -9rem;
 }
 
 /*# sourceMappingURL=style.css.map */
