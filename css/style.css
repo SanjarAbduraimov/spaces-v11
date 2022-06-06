@@ -1317,6 +1317,7 @@ section.hero .fill-white {
 
 .hero__landing2 {
   background-color: #f5f9fe;
+  padding-top: 10rem;
 }
 
 .input-group {
@@ -1347,14 +1348,96 @@ group-prepend {
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
-  border: 0.0625rem solid #edf0f7;
-  border-radius: 0.45rem;
+  border-left: 0.0625rem solid #edf0f7;
+  border-right-style: none;
+  border-radius: 1rem;
+}
+
+.input-group-text {
+  font-size: 1.125rem;
+  padding: 1.6rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#span {
+  font-size: large;
 }
 
 .landing2__flex {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.landing2_card {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.landing2__img {
+  overflow: hidden;
+  object-fit: cover;
+  border-style: hidden;
+}
+
+.card2__title {
+  font-size: 2.1rem;
+  line-height: 4.2rem;
+  font-weight: 500;
+  color: #0d1b48;
+  padding-left: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.card__reiteng {
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+  color: #ffd901;
+}
+
+.badge-primary {
+  color: #ffffff;
+  padding: 0 1.2rem;
+  background-color: #0d1b48;
+  margin-left: 0.5rem;
+  border: 1px solid #0d1b48;
+  border-style: double;
+  border-radius: 2rem;
+}
+
+.card2__text {
+  padding-left: 1.5rem;
+  color: #424767;
+}
+
+.text__colors {
+  margin-top: 2rem;
+}
+
+.card_subtext {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #424767;
+  padding-left: 1rem;
+}
+
+.card_subtexts {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+
+.card__footers {
+  margin: -1rem;
+  padding-left: 1.6rem;
+  color: #424767;
+  background-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.ends {
+  margin-top: 3rem;
+  padding: 2rem;
 }
 
 @media (min-width: 0) {
@@ -1395,18 +1478,18 @@ group-prepend {
 }
 @media (min-width: 1200px) {
   .container-m {
-    width: 114rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    width: 110rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
 }
 @media (min-width: 1400px) {
   .container-m {
-    width: 120rem;
-    margin-right: 12rem;
-    margin-left: 12rem;
+    width: 110rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
@@ -1464,7 +1547,7 @@ group-prepend {
 
 @media (min-width: 1400px) {
   .container-xxl {
-    width: 110rem;
+    width: 107rem;
     margin-right: 15rem;
     margin-left: 15rem;
     padding-right: 1.5rem;

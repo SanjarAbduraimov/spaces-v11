@@ -1,6 +1,8 @@
 .hero__landing2 {
   background-color: $secondary;
+  padding-top: 10rem;
 }
+
 .input-group {
   position: relative;
   display: flex;
@@ -26,16 +28,90 @@ group-prepend {
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
-  border: .0625rem solid #edf0f7;
-  border-radius: .45rem;
+  border-left: .0625rem solid #edf0f7;
+  border-right-style: none;
+  border-radius: 1rem;
 }
 
+.input-group-text {
+  font-size: 1.125rem;
+  padding: 1.6rem 1.5rem;
+  transition: all .3s ease-in-out;
+}
+#span {
+  font-size: large;
+}
 .landing2__flex {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
+.landing2_card {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: #6d74ff13;
+}
+.landing2__img {
+  overflow: hidden;
+  object-fit: cover;
+  border-style: hidden;
+}
+
+.card2__title {
+  font-size: 2.1rem;
+  line-height: 4.2rem;
+  font-weight: 500;
+  color: $mainBlue;
+  padding-left: 1.5rem;
+  margin-top: 2.5rem;
+}
+.card__reiteng {
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+  color: #ffd901;
+
+  
+}
+.badge-primary {
+  color: $mainWhite;
+  padding: 0 1.2rem;
+  background-color: $mainBlue;
+  margin-left: .5rem;
+  border: 1px solid $mainBlue;
+  border-style: double;
+  border-radius: 2rem;
+}
+.card2__text {
+  padding-left: 1.5rem;
+  color: $secondaryBlue;
+
+}
+.text__colors {
+  margin-top: 2rem;
+}
+.card_subtext {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: $secondaryBlue;
+  padding-left: 1rem;
+}
+.card_subtexts {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+
+}
+.card__footers {
+  margin: -1rem;
+  padding-left: 1.6rem;
+  color: $secondaryBlue;
+  background-color: #6d74ff13;
+}
+.ends {
+  margin-top: 3rem;
+  padding: 2rem;
+}
 
 
 
@@ -113,22 +189,23 @@ group-prepend {
     padding-left: 1.5rem;
   }
    @include xl {
-    width: calc(120rem - 6rem);
-    margin-right: 3rem;
-    margin-left: 3rem;
+    width: calc(120rem - 10rem);
+    margin-right: 5rem;
+    margin-left: 5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
    }
-    @include xxl {
-      width: calc(144rem - 24rem);
-      margin-right: 12rem;
-      margin-left: 12rem;
-      padding-right: 1.5rem;
-      padding-left: 1.5rem;
+   @include xxl {
+    width: calc(140rem - 30rem);
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
   }
  
  
- }
+ 
  // end of container-m responsive
  .containerss {
    @include xs {
@@ -177,7 +254,7 @@ group-prepend {
  }
  .container-xxl {
    @include xxl {
-    width: calc(140rem - 30rem);
+    width: calc(137rem - 30rem);
     margin-right: 15rem;
     margin-left: 15rem;
     padding-right: 1.5rem;

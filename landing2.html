@@ -100,9 +100,9 @@
 
 
     <section class="hero__landing2">
-      <div class="container-m">
+      <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-5">
             <div class="section__title">
               <p class="#">Flexible Office. Fast.</p>
             </div>
@@ -115,19 +115,19 @@
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
-                  <span class="fas fa-map-marker-alt">
+                  <span id="span" class="fas fa-map-marker-alt">
                   </span>
                   </span>
                 </div>
                 <input id="search-location" type="text" class="form-control autocomplete" placeholder="Search location" required="">
               </div>
               
-              <div class="row">
-                <div class="col-6">
+              <div class="landing2__flex">
+                <div class="colm">
                   <div class="input-group input-group-lg">
                     <div class="input-group-prepend">
                       <span class="input-group-text">
-                        <span class="fas fa-sliders-h">
+                        <span id="span" class="fas fa-sliders-h">
 
                         </span>
                       </span>
@@ -139,11 +139,11 @@
                     </select>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="colm">
                   <div class="input-group input-group-lg">
                     <div class="input-group-prepend">
                       <span class="input-group-text">
-                        <span class="far fa-user-circle">
+                        <span id="span" class="far fa-user-circle">
                         </span>
                       </span>
                     </div>
@@ -170,7 +170,7 @@
           </div>
                 
                 
-          <div class="col-6">
+          <div class="col-7">
             <div class="landing2__img">
               <img src="https://demo.themesberg.com/bootstrap/spaces/assets/img/illustrations/hero.svg" alt="landing2">
             </div>
@@ -182,12 +182,12 @@
 
     <section class="card__landing2">
 
-      <div class="container-m">
+      <div class="container">
         <div class="row">
-          <div class="col-4">
-            <div class="card">
+          <div class="col-4 animate__up">
+            <div class="card landing2_card">
               <div class="landing2__img" >
-                <img style="width: 100%;" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/image-office.jpg" alt="">
+                <img style="width: 100%; border: 1px solid; border-radius: 1rem; border-style: hidden;" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/image-office.jpg" alt="">
               </div>
               <p class="card2__title">Collaborative Workspace</p>
               
@@ -206,23 +206,136 @@
                   <span class="badge badge-pill badge-primary ml-2">5.0</span>
                 </div>
               </div>
-              <div class="card2__text landing2__flex">
+              <div class="card2__text landing2__flex text__colors">
                 <i class="fa-solid fa-location-dot"></i>
-                <p>New York, Manhattan, USA</p>
+                <p class="card_subtext">New York, Manhattan, USA</p>
               </div>
               <div class="card2__text landing2__flex">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>New York, Manhattan, USA</p>
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Old Street (2 mins walk)</p>
               </div>
               <div class="card2__text landing2__flex">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>New York, Manhattan, USA</p>
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Shoreditch High Street(10 mins walk)</p>
+              </div>
+              <div class="landing2__flex card__footers ends" >
+                <div class="col">
+                  <p class="card_subtexts">Monthly</p>
+                  <h3>2100$</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">People</p>
+                  <h3>12</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">SQ.Ft</p>
+                  <h3>1200</h3>
+                </div>
               </div>
 
             </div>
           </div>
-          <div class="col-4">
-            m
+          <div class="col-4 animate__up">
+            <div class="card landing2_card">
+              <div class="landing2__img" >
+                <img style="width: 100%; border: 1px solid; border-radius: 1rem; border-style: hidden;" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/image-office.jpg" alt="">
+              </div>
+              <p class="card2__title">Collaborative Workspace</p>
+              
+              <div class="card__reiteng">
+                <div class="d-flex my-4">
+                  <span class="star fas fa-star text-warning">
+                  </span>
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="badge badge-pill badge-primary ml-2">5.0</span>
+                </div>
+              </div>
+              <div class="card2__text landing2__flex text__colors">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="card_subtext">New York, Manhattan, USA</p>
+              </div>
+              <div class="card2__text landing2__flex">
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Old Street (2 mins walk)</p>
+              </div>
+              <div class="card2__text landing2__flex">
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Shoreditch High Street(10 mins walk)</p>
+              </div>
+              <div class="landing2__flex card__footers ends" >
+                <div class="col">
+                  <p class="card_subtexts">Monthly</p>
+                  <h3>2100$</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">People</p>
+                  <h3>12</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">SQ.Ft</p>
+                  <h3>1200</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-4 animate__up">
+            <div class="card landing2_card">
+              <div class="landing2__img" >
+                <img style="width: 100%; border: 1px solid; border-radius: 1rem; border-style: hidden;" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/image-office.jpg" alt="">
+              </div>
+              <p class="card2__title">Collaborative Workspace</p>
+              
+              <div class="card__reiteng">
+                <div class="d-flex my-4">
+                  <span class="star fas fa-star text-warning">
+                  </span>
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="star fas fa-star text-warning">
+                  </span> 
+                  <span class="badge badge-pill badge-primary ml-2">5.0</span>
+                </div>
+              </div>
+              <div class="card2__text landing2__flex text__colors">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="card_subtext">New York, Manhattan, USA</p>
+              </div>
+              <div class="card2__text landing2__flex">
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Old Street (2 mins walk)</p>
+              </div>
+              <div class="card2__text landing2__flex">
+                <i class="fa-solid fa-bullseye"></i>
+                <p class="card_subtext">Shoreditch High Street(10 mins walk)</p>
+              </div>
+              <div class="landing2__flex card__footers ends" >
+                <div class="col">
+                  <p class="card_subtexts">Monthly</p>
+                  <h3>2100$</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">People</p>
+                  <h3>12</h3>
+                </div>
+                <div class="col">
+                  <p class="card_subtexts">SQ.Ft</p>
+                  <h3>1200</h3>
+                </div>
+              </div>
+
+            </div>
           </div>
           
         </div>
@@ -240,7 +353,7 @@
 
 
     <footer class="footer">
-      <div class="container-m">
+      <div class="container">
         <div class="row footer__row">
           <div class="col-3">
             <a href="./index.html">
