@@ -1,257 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <ul class="nav__menu">
-            <li class="nav__item">
-              <a href="./index.html">
-                <img
-                  class="nav__logo"
-                  src="./images/brand/logo-light.svg"
-                  alt=""
-                />
-              </a>
-            </li>
-            <li class="nav__item">
-              Frount pages
-              <i class="fa-solid fa-angle-down"></i>
-              <div class="nav__dropdown logo__drop">
-                <div class="row">
-                  <div class="col-4">
-                    <h4>Main pages</h4>
-                    <a class="drop__link" href="./landing.html">Landing</a>
-                    <a class="drop__link" href="./landing2.html">Landing 2</a>
-                    <a class="drop__link" href="./landing3.html">Landing 3</a>
-                    <a class="drop__link" href="./about.html">About</a>
-                    <a class="drop__link" href="./pricing.html">Pricing</a>
-                    <a class="drop__link" href="./team.html">Team</a>
-                    <a class="drop__link" href="./contact.html">Contact</a>
-                    <h4 class="drop__title">Legal</h4>
-                    <a class="drop__link" href="#">Legal center</a>
-                    <a class="drop__link" href="#">Terms & agreement</a>
-                  </div>
-                  <div class="col-4">
-                    <h4>Listing</h4>
-                    <a class="drop__link" href="#">All spaces</a>
-                    <a class="drop__link" href="#">Map view</a>
-                    <a class="drop__link" href="#">All spaces sidebar</a>
-                    <a class="drop__link" href="#">Space details</a>
-                    <a class="drop__link" href="#">Profile</a>
-                    <h4 class="drop__title">Support</h4>
-                    <a class="drop__link" href="#">Support center</a>
-                    <a class="drop__link" href="#">Support topic</a>
-                    <h4 class="drop__title">Blog</h4>
-                    <a class="drop__link" href="#">Blog</a>
-                    <a class="drop__link" href="#">Blog post</a>
-                  </div>
-                  <div class="col-4">
-                    <h4>User</h4>
-                    <a class="drop__link" href="#">Sign in</a>
-                    <a class="drop__link" href="#">Sign up</a>
-                    <a class="drop__link" href="#">Forget password</a>
-                    <a class="drop__link" href="#">Reset password</a>
-                    <h4 class="drop__title">Special</h4>
-                    <a class="drop__link" href="#">404 Not Found</a>
-                    <a class="drop__link" href="#">500 Server Error</a>
-                    <a class="drop__link" href="#">Maintenance</a>
-                    <a class="drop__link" href="#">Corning soon</a>
-                    <a class="drop__link" href="#">Blank page</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="nav__item">
-              Dashboard
-              <i class="fa-solid fa-angle-down"></i>
-            </li>
-            <li class="nav__item">
-              Support
-              <i class="fa-solid fa-angle-down"></i>
-            </li>
-          </ul>
-          <div class="nav__btns">
-            <button
-              class="btn mr-2 btn__light btn__outline animate__up btn__docs"
-            >
-              <i class="fa-solid fa-book"></i>
-              Components
-            </button>
-            <button class="btn btn__danger animate__up">
-              <i class="fa-solid fa-bag-shopping"></i>
-              Buy now
-            </button>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p class="section__title hero__text">Our team</p>
-            <p class="section__subtitle hero__text mt-5">
-              Whether you’re a programmer, designer, freelancer or need Rocket
-              for a <br />
-              whole team our pricing just makes sense.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/team.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
 
-    <section class="cards">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="card d-flex justify-content-center">
-              <div class="card-img text-center">
-                <img
-                  width="160"
-                  class="rounded text-center"
-                  src="./images/footer-imgs/card1-img.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="card-body">
-                <h4 class="card-title d-flex justify-content-center">
-                  Jose Leos
-                </h4>
-                <p class="section__text d-flex justify-content-center">
-                  Co-Founder
-                </p>
-                <ul
-                  class="list-unstyled d-flex justify-content-center mt-3 mb-0"
-                >
-                  <li>
-                    <a
-                      href="#"
-                      target="_blank"
-                      aria-label="facebook social link"
-                      class="icon-facebook mr-3 facebook"
-                      ><span class="fab fa-facebook-f"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      target="_blank"
-                      aria-label="twitter social link"
-                      class="icon-twitter mr-3 twitter"
-                      ><span class="fab fa-twitter"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      target="_blank"
-                      aria-label="slack social link"
-                      class="icon-slack mr-3 slack"
-                      ><span class="fab fa-slack-hash"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      target="_blank"
-                      aria-label="dribbble social link"
-                      class="icon-dribbble mr-3 dribbble"
-                      ><span class="fab fa-dribbble"></span
-                    ></a>
-                  </li>
-                </ul>
-                <p
-                  class="section__text d-flex justify-content-center text-center"
-                >
-                  Some quick example text to build <br />
-                  on the card title and make up the <br />
-                  bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="row footer__row">
-          <div class="col-3">
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="nav__menu">
+          <li class="nav__item">
             <a href="./index.html">
-              <img
-                class="nav__logo"
-                src="./images/brand/logo-light.svg"
-                alt="logo"
-              />
+              <img class="nav__logo" src="./images/brand/logo-light.svg" alt="" />
             </a>
-            <p class="footer-text">
-              Premium Bootstrap Directory Listing Template
-            </p>
-          </div>
-          <div class="col-2">
-            <h4 class="footer__col-title">Themesberg</h4>
-            <a class="footer__col-link" href="#">Blog</a>
-            <a class="footer__col-link" href="#">Products</a>
-            <a class="footer__col-link" href="./about.html">About Us</a>
-            <a class="footer__col-link" href="./contact.html">Contact Us</a>
-          </div>
-          <div class="col-3">
-            <h4 class="footer__col-title">Other</h4>
-            <a class="footer__col-link" href="#"
-              >Documentation <button class="footer__col-btn">v3.0</button></a
-            >
-
-            <a class="footer__col-link" href="#">Changelog</a>
-            <a class="footer__col-link" href="#">Support</a>
-            <a class="footer__col-link" href="#">License</a>
-          </div>
-          <div class="col-4">
-            <h4 class="footer__col-title">Get the app</h4>
-            <p class="footer__col-text">It's easy. Just select your device.</p>
-                <div class="footer__btns">
-                  <button class="footer__btn">
-                    <div class="row">
-                      <div class="col-2">
-                        <i class="fa-brands fa-apple"></i>
-                      </div>
-                      <div class="col-10">
-                        <p>Available on</p>
-                        <h4 class="footer__icon-title">App Store</h4>
-                      </div>
-                    </div>
-                  </button>
-                  <button class="footer__btn">
-                    <div class="footer__btn-icon">
-                      <div>
-                        <i class="fa-brands fa-google-play"></i>
-                      </div>
-                      <div >
-                        <p>Available on</p>
-                        <h4 class="footer__icon-title">Google Play</h4>
-                      </div>
-                    </div>
-                  </button>
+          </li>
+          <li class="nav__item">
+            Frount pages
+            <i class="fa-solid fa-angle-down"></i>
+            <div class="nav__dropdown logo__drop">
+              <div class="row">
+                <div class="col-4">
+                  <h4>Main pages</h4>
+                  <a class="drop__link" href="./landing.html">Landing</a>
+                  <a class="drop__link" href="./landing2.html">Landing 2</a>
+                  <a class="drop__link" href="./landing3.html">Landing 3</a>
+                  <a class="drop__link" href="./about.html">About</a>
+                  <a class="drop__link" href="./pricing.html">Pricing</a>
+                  <a class="drop__link" href="./team.html">Team</a>
+                  <a class="drop__link" href="./contact.html">Contact</a>
+                  <h4 class="drop__title">Legal</h4>
+                  <a class="drop__link" href="#">Legal center</a>
+                  <a class="drop__link" href="#">Terms & agreement</a>
                 </div>
+                <div class="col-4">
+                  <h4>Listing</h4>
+                  <a class="drop__link" href="#">All spaces</a>
+                  <a class="drop__link" href="#">Map view</a>
+                  <a class="drop__link" href="#">All spaces sidebar</a>
+                  <a class="drop__link" href="#">Space details</a>
+                  <a class="drop__link" href="#">Profile</a>
+                  <h4 class="drop__title">Support</h4>
+                  <a class="drop__link" href="#">Support center</a>
+                  <a class="drop__link" href="#">Support topic</a>
+                  <h4 class="drop__title">Blog</h4>
+                  <a class="drop__link" href="#">Blog</a>
+                  <a class="drop__link" href="#">Blog post</a>
+                </div>
+                <div class="col-4">
+                  <h4>User</h4>
+                  <a class="drop__link" href="#">Sign in</a>
+                  <a class="drop__link" href="#">Sign up</a>
+                  <a class="drop__link" href="#">Forget password</a>
+                  <a class="drop__link" href="#">Reset password</a>
+                  <h4 class="drop__title">Special</h4>
+                  <a class="drop__link" href="#">404 Not Found</a>
+                  <a class="drop__link" href="#">500 Server Error</a>
+                  <a class="drop__link" href="#">Maintenance</a>
+                  <a class="drop__link" href="#">Corning soon</a>
+                  <a class="drop__link" href="#">Blank page</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item">
+            Dashboard
+            <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li class="nav__item">
+            Support
+            <i class="fa-solid fa-angle-down"></i>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn mr-2 btn__light btn__outline animate__up btn__docs">
+            <i class="fa-solid fa-book"></i>
+            Components
+          </button>
+          <button class="btn btn__danger animate__up">
+            <i class="fa-solid fa-bag-shopping"></i>
+            Buy now
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="section__title hero__text">Our team</p>
+          <p class="section__subtitle hero__text mt-5">
+            Whether you’re a programmer, designer, freelancer or need Rocket
+            for a <br />
+            whole team our pricing just makes sense.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cards">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-1.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Jose Leos
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
-        <p class="footer__title">
-          Copyright Themesberg 2022. All rights reserved.
-        </p>
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-2.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Neil Sims
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-3.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Jose Leos
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-4.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Jose Leos
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-5.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Jose Leos
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img width="160" class="rounded-img " src="./images/team/card-6.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Jose Leos
+              </h4>
+              <p class="section__text">
+                Co-Founder
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#" target="_blank" aria-label="facebook social link"
+                    class="icon-facebook mr-3 facebook"><span class="fab fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="twitter social link" class="icon-twitter mr-3 twitter"><span
+                      class="fab fa-twitter twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="slack social link" class="icon-slack mr-3 slack"><span
+                      class="fab fa-slack-hash"></span></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="dribbble social link"
+                    class="icon-dribbble mr-3 dribbble"><span class="fab fa-dribbble"></span></a>
+                </li>
+              </ul>
+              <p class="section__text">
+                Some quick example text to build <br />
+                on the card title and make up the <br />
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="clients ">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 text-center">
+          <span class="number">100 <p>+</p></s>
+        </div>
+        <div class="col-7">
+          <p class="section__subtitle">
+            We know how hard it is to find someone you can trust to work in your home or business.
+          </p>
+          <br>
+          <p class="section__subtitle">That's why we've compiled a list of our most trusted <br> business partners.We
+            personally
+            know these business owners and can confidently refer them to you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="job mt-6">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title mt-6">Interested in joining the team?</h1>
+        <p class="section__subtitle mt-3">
+          One of our most important core values is to partner with our employees <br> because we know they are instrumental
+          in the success of the company.
+        </p>
+        <div class="col">
+          <button class="btn btn__danger mt-4">See job openings</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer__row">
+        <div class="col-3">
+          <a href="./index.html">
+            <img class="nav__logo" src="./images/brand/logo-light.svg" alt="logo" />
+          </a>
+          <p class="footer-text">
+            Premium Bootstrap Directory Listing Template
+          </p>
+        </div>
+        <div class="col-2">
+          <h4 class="footer__col-title">Themesberg</h4>
+          <a class="footer__col-link" href="#">Blog</a>
+          <a class="footer__col-link" href="#">Products</a>
+          <a class="footer__col-link" href="./about.html">About Us</a>
+          <a class="footer__col-link" href="./contact.html">Contact Us</a>
+        </div>
+        <div class="col-3">
+          <h4 class="footer__col-title">Other</h4>
+          <a class="footer__col-link" href="#">Documentation <button class="footer__col-btn">v3.0</button></a>
+
+          <a class="footer__col-link" href="#">Changelog</a>
+          <a class="footer__col-link" href="#">Support</a>
+          <a class="footer__col-link" href="#">License</a>
+        </div>
+        <div class="col-4">
+          <h4 class="footer__col-title">Get the app</h4>
+          <p class="footer__col-text">It's easy. Just select your device.</p>
+          <div class="footer__btns">
+            <button class="footer__btn">
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa-brands fa-apple"></i>
+                </div>
+                <div class="col-10">
+                  <p>Available on</p>
+                  <h4 class="footer__icon-title">App Store</h4>
+                </div>
+              </div>
+            </button>
+            <button class="footer__btn">
+              <div class="footer__btn-icon">
+                <div>
+                  <i class="fa-brands fa-google-play"></i>
+                </div>
+                <div>
+                  <p>Available on</p>
+                  <h4 class="footer__icon-title">Google Play</h4>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer__title">
+      Copyright Themesberg 2022. All rights reserved.
+    </p>
+    </div>
+  </footer>
+</body>
+
 </html>
