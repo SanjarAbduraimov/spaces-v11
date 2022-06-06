@@ -54,7 +54,7 @@ ul {
 
 .container {
   width: 100%;
-  padding: 0 0rem;
+  padding: 0 10rem;
   margin: auto;
 }
 
@@ -1384,19 +1384,11 @@ body {
   font-weight: 300;
 }
 
-.navbar {
-  z-index: 3;
-}
-
 .suptitle {
   font-weight: 400;
   font-size: 1.9rem;
   line-height: 3.2rem;
   color: #424767;
-}
-
-.text-primary, .text-primary:hover {
-  color: #0d1b48 !important;
 }
 
 .text-subtitle {
@@ -1472,11 +1464,10 @@ body {
 }
 
 .panel {
-  border: 1px solid #0d1b48;
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

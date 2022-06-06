@@ -93,6 +93,11 @@ $btnColor: (
   border: 1px solid inherit;
   
 }
+.btn-denger {
+  background-color:#172755 ;
+  color: $mainWhite;
+}
+
 .btn__outline__smoll:hover{
   background: $mainBlue;
   color: $mainWhite;
