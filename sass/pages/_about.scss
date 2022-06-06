@@ -1,14 +1,14 @@
-.hero__landing {
+.hero__about {
   background: linear-gradient(
       90deg,
       rgba(13, 27, 72, 0.836) 100%,
       rgba(13, 27, 72, 0.836) 100%
     ),
-    url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg);
+    url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
-  height: 90vh;
+  background-position: center;
+  height: 70vh;
   width: 100%;
   margin-top: -9rem;
 }

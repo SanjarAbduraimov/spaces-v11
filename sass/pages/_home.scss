@@ -1,5 +1,4 @@
 section.hero {
-  position: relative;
   background-color: $mainBlue;
   color: $mainWhite;
   padding: 2rem 0;
@@ -23,4 +22,21 @@ section.hero {
 
 .hero__link {
   display: inline-block;
+}
+
+.section__title {
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: $mainBlue;
+}
+.section__subtitle {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: $secondaryBlue;
+}
+
+.section__text {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: $secondaryBlue;
 }

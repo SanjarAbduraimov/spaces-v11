@@ -1,0 +1,86 @@
+.footer {
+  background-color: $mainBlue;
+  height: 65vh;
+  width: 100%;
+  padding: 7rem 0px;
+  text-align: center;
+}
+
+.footer__row {
+  text-align: start;
+}
+
+.footer__col-title {
+  color: $mainWhite;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer__col-link {
+  display: block;
+  color: $mainWhite;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  &:hover {
+    color: $mainRed;
+  }
+}
+
+.footer__col-btn {
+  margin-left: 0.5rem;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: $mainRed;
+  color: $mainWhite;
+}
+
+.footer__col-text {
+  color: $secondaryWhite;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.footer-text {
+  color: $mainWhite;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+.footer__title {
+  color: $mainWhite;
+  margin-top: 10rem;
+}
+
+.footer__btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer__btn {
+  padding: 0 0.9rem;
+  border-radius: 10px;
+  background-color: $mainWhite;
+  color: $mainBlue;
+  text-align: start;
+  &:hover {
+    background-color: $secondaryWhite;
+  }
+}
+
+.footer__btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-google-play {
+  font-size: 3rem;
+}
+
+.fa-apple {
+  font-size: 3.7rem;
+}
+
+.footer__icon-title {
+  font-size: 1.6rem;
+}
