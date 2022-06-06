@@ -1320,12 +1320,16 @@ section.hero .fill-white {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
   top: 0;
   left: 0;
   height: 70vh;
   width: 100%;
   z-index: -1;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem !important;
 }
 
 section.hero {
