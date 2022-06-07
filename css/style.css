@@ -1227,8 +1227,8 @@ header.unpinned {
 .nav__dropdown {
   display: none;
   position: absolute;
-  left: -18rem;
-  top: 6.3rem;
+  left: -8rem;
+  top: 7rem;
   background-color: #ffffff;
   color: #0d1b48;
   width: 550px;
@@ -1339,6 +1339,10 @@ header.unpinned {
 }
 .footer__btn:hover {
   background-color: #e5e5e5;
+}
+
+.footer__btn-row {
+  display: flex;
 }
 
 .footer__btn-icon {
