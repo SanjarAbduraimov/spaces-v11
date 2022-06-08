@@ -1545,25 +1545,32 @@ section.hero {
   color: #ffffff;
   padding: 2rem 0;
   text-align: center;
-}
-section.hero .hero__text {
-  color: #ffffff;
-}
-
-.facebook {
-  color: #3b5999;
+  white-space: nowrap;
+  background-color: #fff;
+  border-left: 0.0625rem solid #edf0f7;
+  border-right-style: none;
+  border-radius: 1rem;
 }
 
-.slack {
-  color: #3aaf85;
+.input-group-text {
+  font-size: 1.125rem;
+  padding: 1.6rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#span {
+  font-size: large;
 }
 
 .dribbble {
   color: #DB4337;
 }
 
-.twitter {
-  color: #1da1f2;
+.landing2_card {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: rgba(109, 116, 255, 0.0745098039);
 }
 
 .team_cards {
