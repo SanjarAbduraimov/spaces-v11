@@ -951,7 +951,6 @@ ul {
   align-items: stretch;
   flex-wrap: nowrap;
   border-radius: 4px;
-  overflow: hidden;
 }
 .card.shadow {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -1424,6 +1423,217 @@ section.hero .fill-white {
   background-position: center;
   min-height: 100vh;
   padding-top: 9rem;
+}
+
+.about__title {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero__subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.body__title {
+  color: #fff;
+  font: optional;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.max-width {
+  max-width: 70rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-color__light {
+  background-color: rgb(245, 249, 254);
+}
+
+.border-px {
+  border: 1px #424767;
+}
+
+.logo-icon__brand__blue {
+  padding: 2rem;
+  font-size: 4.75rem;
+  color: #0d1b48;
+  border-radius: 50%;
+}
+
+.icons {
+  margin-right: 3px;
+}
+
+.contact .fw-bolder {
+  font-weight: 500;
+  color: #000000;
+}
+.contact .text-center {
+  text-align: center;
+}
+.contact .text-danger {
+  color: #c33c54 !important;
+}
+.contact iframe {
+  width: 100%;
+}
+.contact .fas {
+  color: #0d1b48;
+}
+.contact form .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .socials {
+  display: flex;
+  justify-content: center;
+}
+.contact .card-text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+.contact .card-title {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+.contact input[type=text],
+.contact textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact input[type=submit] {
+  width: 100%;
+  background-color: #c33c54;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact input[type=submit]:hover {
+  background-color: #b32b44;
+}
+section.hero {
+  background-color: #0d1b48;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+section.hero .hero__text {
+  color: #ffffff;
+}
+
+.facebook {
+  color: #3b5999;
+}
+
+.slack {
+  color: #3aaf85;
+}
+
+.dribbble {
+  color: #DB4337;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.team_cards {
+  position: relative;
+  top: -200px;
+  z-index: 10;
+}
+
+.team_card {
+  border: 1px solid #edf0f7;
+  position: relative;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  position: absolute;
+  border-radius: 50%;
+  top: -80px;
+  text-align: center;
+}
+
+.team_card .card-title {
+  padding-top: 80px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.members .section__title {
+  font-size: 8rem;
+  line-height: 4.2rem;
+  color: #0d1b48;
+  font-weight: 500;
+}
+
+.members span {
+  display: flex;
+  justify-content: center;
+}
+.members span p {
+  margin-top: -25px;
+}
+
+.members .col-7 p {
+  font-size: 20px;
+}
+
+.medias {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+.seeJob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f9fe !important;
+  height: 350px;
+  padding-top: 40px;
+}
+.seeJob .section__text {
+  font-size: 20px;
 }
 
 .section__title {

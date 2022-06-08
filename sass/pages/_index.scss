@@ -3,6 +3,8 @@
 @import "./landing2";
 @import "./landing3";
 @import "./about";
+@import "./contact";
+@import "./team";
 
 .section__title {
   font-size: 3.2rem;
@@ -46,6 +48,7 @@
 .ml-2 {
   margin-left: 2.5rem;
 }
+
 .logo-icon__brand {
   padding: 2rem;
   font-size: 4.75rem;
@@ -73,9 +76,7 @@
 .text-muted {
   color: $text-muted;
 }
-// .font-weight-bolder {
 
-// }
 .text-gray {
   color: $secondaryBlue;
 }
