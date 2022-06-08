@@ -1478,68 +1478,47 @@ section.hero .fill-white {
   border-radius: 50%;
 }
 
-.card__img {
-  color: rgb(13, 27, 72);
-}
-
-.card__text {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.6rem;
-  color: #424767;
-}
-
 .icons {
   margin-right: 3px;
 }
 
-.fw-bolder {
+.contact .fw-bolder {
   font-weight: 500;
   color: #000000;
 }
-
-.text-center {
+.contact .text-center {
   text-align: center;
 }
-
-.text-danger {
+.contact .text-danger {
   color: #c33c54 !important;
 }
-
-iframe {
+.contact iframe {
   width: 100%;
 }
-
-.fas {
+.contact .fas {
   color: #0d1b48;
 }
-
-form .row {
+.contact form .row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.socials {
+.contact .socials {
   display: flex;
   justify-content: center;
 }
-
-.card-text {
+.contact .card-text {
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #424767;
 }
-
-.card-title {
+.contact .card-title {
   font-size: 2.4rem;
   line-height: 2.6rem;
   color: #424767;
 }
-
-input[type=text], textarea {
+.contact input[type=text],
+.contact textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1548,8 +1527,7 @@ input[type=text], textarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
-input[type=submit] {
+.contact input[type=submit] {
   width: 100%;
   background-color: #c33c54;
   color: white;
@@ -1559,11 +1537,9 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-input[type=submit]:hover {
+.contact input[type=submit]:hover {
   background-color: #b32b44;
 }
-
 section.hero {
   background-color: #0d1b48;
   color: #ffffff;
