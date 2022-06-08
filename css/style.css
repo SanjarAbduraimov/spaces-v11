@@ -981,15 +981,15 @@ ul {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #ffffff;
+  background: #0d1b48;
   padding: 10px;
-  color: #0d1b48;
+  color: #ffffff;
 }
 .card.card__overlay .card__imgtop:hover {
   transform: scale(1);
 }
 .card.card__overlay .card__imgtop:hover + .card__body {
-  opacity: 1;
+  opacity: 2;
   visibility: visible;
   transition: all 0.1s ease-in-out;
 }
@@ -1272,7 +1272,7 @@ header.unpinned {
 
 .footer {
   background-color: #0d1b48;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
   padding: 7rem 0px;
   text-align: center;
@@ -1587,7 +1587,7 @@ section.hero .fill-white {
   color: #0d1b48;
 }
 
-.bg-whitee {
+.bg-white {
   background-color: #ffffff;
 }
 

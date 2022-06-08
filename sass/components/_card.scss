@@ -41,16 +41,17 @@
       bottom: 0;
       left: 0;
       right: 0;
-      background: $mainWhite;
+      background: $mainBlue;
       padding: 10px;
-      color: $mainBlue
+      
+      color: $mainWhite;
     }
 
     .card__imgtop {
       &:hover {
         transform: scale(1);
         + .card__body {
-          opacity: 1;
+          opacity: 2;
           visibility: visible;
           transition: all 0.1s ease-in-out;
         }
