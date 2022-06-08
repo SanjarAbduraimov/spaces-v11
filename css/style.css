@@ -1363,6 +1363,7 @@ header.unpinned {
 }
 
 section.hero {
+  position: relative;
   background-color: #0d1b48;
   color: #ffffff;
   padding: 2rem 0;
@@ -1417,12 +1418,23 @@ section.hero .fill-white {
 }
 
 .hero__about {
+  position: relative;
   background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   padding-top: 9rem;
+}
+.hero__about .hero__figure {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hero__about .fill-white {
+  fill: #ffffff;
 }
 
 .about__title {
@@ -1478,7 +1490,19 @@ section.hero .fill-white {
   border-radius: 50%;
 }
 
-.icons {
+.about__team .card__img--top {
+  color: rgb(13, 27, 72);
+}
+.about__team .card__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+
+.about__team--icons {
   margin-right: 3px;
 }
 
