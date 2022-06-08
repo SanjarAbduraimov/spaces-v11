@@ -1415,6 +1415,7 @@ section.hero .fill-white {
   height: 90vh;
   width: 100%;
   margin-top: -9rem;
+  padding-top: 9rem;
 }
 
 .hero__about {
@@ -1477,6 +1478,23 @@ section.hero .fill-white {
   font-size: 4.75rem;
   color: #0d1b48;
   border-radius: 50%;
+}
+
+.card__img {
+  color: rgb(13, 27, 72);
+}
+
+.card__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+
+.icons {
+  margin-right: 3px;
 }
 
 .section__title {
