@@ -1,8 +1,10 @@
 @import "./home";
-@import "./team";
 @import "./landing";
+@import "./landing2";
+@import "./landing3";
+@import "./about";
 @import "./contact";
-
+@import "./team";
 
 .section__title {
   font-size: 3.2rem;
@@ -10,14 +12,176 @@
   color: $mainBlue;
 }
 .section__subtitle {
+  max-width: 75rem;
   font-size: 2rem;
   line-height: 3.2rem;
   color: $secondaryBlue;
+  margin: auto;
 }
+.section__supertitle {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.2rem;
 
+  color: $mainBlue;
+}
+.text-center {
+  text-align: center;
+}
 .section__text {
   font-size: 1.5rem;
   line-height: 2.6rem;
   color: $secondaryBlue;
 }
 
+.box-shadow {
+  box-shadow: $box-shadow;
+}
+.hero__content {
+  margin-top: 5rem;
+}
+.presentation__content {
+  margin-top: -30rem;
+  position: relative;
+  z-index: 1;
+}
+.ml-2 {
+  margin-left: 2.5rem;
+}
+
+.logo-icon__brand {
+  padding: 2rem;
+  font-size: 4.75rem;
+  color: $mainRed;
+  border-radius: 50%;
+}
+.logo-icon__bg {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-Blue {
+  color: $secondaryBlue;
+}
+.icon-Red {
+  color: $mainRed;
+}
+.icon-yellow {
+  color: $mainYellow;
+}
+.text-tertiary {
+  color: $text-muted;
+}
+.text-muted {
+  color: $text-muted;
+}
+
+.text-gray {
+  color: $secondaryBlue;
+}
+.py {
+  padding: 10rem;
+}
+.mapbooks,
+.dashboard {
+  background-color: $mainlight;
+}
+.pricing {
+  background-color: #1c68c4;
+}
+.mapbooks .container .row {
+  justify-content: space-between;
+}
+.dashboard .container .row {
+  justify-content: space-between;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.navbar {
+  z-index: 3;
+}
+.suptitle {
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  color: #424767;
+}
+.text-primary,
+.text-primary:hover {
+  color: #0d1b48 !important;
+}
+.text-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+
+.awesome {
+  background-color: #0d1b48;
+}
+.lead {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: $mainWhite;
+}
+.h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: $mainWhite;
+}
+.d-lg-none {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: #0d1b48;
+}
+.bg-white {
+  background-color: $mainWhite;
+}
+.rounded {
+  border-radius: 10px;
+}
+.text-secondary {
+  color: $mainRed;
+}
+
+.accardion-row {
+  justify-content: space-between;
+}
+.accordion {
+  background-color: $mainWhite;
+  // color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid $mainBlue;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.fa-plus {
+  float: right;
+}
+.active,
+.accordion:hover {
+  background-color: #f5f9fe;
+}
+
+.panel {
+  border: 1px solid $mainBlue;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}

@@ -1,28 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
 
-<body>
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="section__title hero__text">Our team</p>
-                    <p class="section__subtitle hero__text mt-5">Whether you’re a programmer, designer, freelancer or
-                        need Rocket for a <br> whole team our pricing
-                        just makes sense.
-                    </p>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a href="./index.html">
+                <img
+                  class="nav__logo"
+                  src="./images/brand/logo-light.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              Frount pages
+              <i class="fa-solid fa-angle-down"></i>
+              <div class="nav__dropdown logo__drop">
+                <div class="row">
+                  <div class="col-4">
+                    <h4>Main pages</h4>
+                    <a class="drop__link" href="./landing.html">Landing</a>
+                    <a class="drop__link" href="./landing2.html">Landing 2</a>
+                    <a class="drop__link" href="./landing3.html">Landing 3</a>
+                    <a class="drop__link" href="./about.html">About</a>
+                    <a class="drop__link" href="./pricing.html">Pricing</a>
+                    <a class="drop__link" href="./team.html">Team</a>
+                    <a class="drop__link" href="./contact.html">Contact</a>
+                    <h4 class="drop__title">Legal</h4>
+                    <a class="drop__link" href="#">Legal center</a>
+                    <a class="drop__link" href="#">Terms & agreement</a>
+                  </div>
+                  <div class="col-4">
+                    <h4>Listing</h4>
+                    <a class="drop__link" href="#">All spaces</a>
+                    <a class="drop__link" href="#">Map view</a>
+                    <a class="drop__link" href="#">All spaces sidebar</a>
+                    <a class="drop__link" href="#">Space details</a>
+                    <a class="drop__link" href="#">Profile</a>
+                    <h4 class="drop__title">Support</h4>
+                    <a class="drop__link" href="#">Support center</a>
+                    <a class="drop__link" href="#">Support topic</a>
+                    <h4 class="drop__title">Blog</h4>
+                    <a class="drop__link" href="#">Blog</a>
+                    <a class="drop__link" href="#">Blog post</a>
+                  </div>
+                  <div class="col-4">
+                    <h4>User</h4>
+                    <a class="drop__link" href="#">Sign in</a>
+                    <a class="drop__link" href="#">Sign up</a>
+                    <a class="drop__link" href="#">Forget password</a>
+                    <a class="drop__link" href="#">Reset password</a>
+                    <h4 class="drop__title">Special</h4>
+                    <a class="drop__link" href="#">404 Not Found</a>
+                    <a class="drop__link" href="#">500 Server Error</a>
+                    <a class="drop__link" href="#">Maintenance</a>
+                    <a class="drop__link" href="#">Corning soon</a>
+                    <a class="drop__link" href="#">Blank page</a>
+                  </div>
                 </div>
-            </div>
+              </div>
+            </li>
+            <li class="nav__item">
+              Dashboard
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li class="nav__item">
+              Support
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+          </ul>
+          <div class="nav__btns">
+            <button
+              class="btn mr-2 btn__light btn__outline animate__up btn__docs"
+            >
+              <i class="fa-solid fa-book"></i>
+              Components
+            </button>
+            <button class="btn btn__danger animate__up">
+              <i class="fa-solid fa-bag-shopping"></i>
+              Buy now
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="section__title hero__text">Our team</p>
+            <p class="section__subtitle hero__text mt-5">
+              Whether you’re a programmer, designer, freelancer or need Rocket
+              for a <br />
+              whole team our pricing just makes sense.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section>
@@ -111,6 +199,18 @@
                             </p>
                         </div>
                     </div>
+                  </button>
+                  <button class="footer__btn">
+                    <div class="footer__btn-icon">
+                      <div>
+                        <i class="fa-brands fa-google-play"></i>
+                      </div>
+                      <div >
+                        <p>Available on</p>
+                        <h4 class="footer__icon-title">Google Play</h4>
+                      </div>
+                    </div>
+                  </button>
                 </div>
             </div>
             <div class="row team_cards" style="margin-top: 80px;">
@@ -232,7 +332,10 @@
             </p>
             <button class="btn btn__danger mt-4">See job openings</button>
         </div>
-    </section>
-</body>
-
+        <p class="footer__title">
+          Copyright Themesberg 2022. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
