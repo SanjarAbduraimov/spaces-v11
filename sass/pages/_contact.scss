@@ -1,14 +1,67 @@
-.hero__contact {
-  background: linear-gradient(
-      90deg,
-      rgba(13, 27, 72, 0.836) 100%,
-      rgba(13, 27, 72, 0.836) 100%
-    ),
-    url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  width: 100%;
-  margin-top: -9rem;
+.contact {
+  .fw-bolder {
+    font-weight: 500;
+    color: $mainBlack;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-danger {
+    color: $mainRed !important;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .fas {
+    color: $mainBlue;
+  }
+
+  form .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+  .card-text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $secondaryBlue;
+  }
+  .card-title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: $secondaryBlue;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: $mainRed;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #b32b44;
+  }
+  label {
+  }
 }

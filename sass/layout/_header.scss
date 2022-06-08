@@ -5,7 +5,21 @@
 }
 
 .header_landing {
-  background: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-color: $mainBlue;
+  width: 100%;
+}
+
+header.pinned {
+  transform: translateY(0%);
+  transition: transform 0.4s;
+}
+header.unpinned {
+  transform: translateY(-100%);
+  transition: transform 0.4s;
 }
 .landing2__header {
   height: 9rem;
@@ -63,8 +77,8 @@
 .nav__dropdown {
   display: none;
   position: absolute;
-  left: -18rem;
-  top: 6.3rem;
+  left: -8rem;
+  top: 7rem;
   background-color: $mainWhite;
   color: $mainBlue;
   width: 550px;

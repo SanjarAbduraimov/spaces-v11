@@ -1,6 +1,6 @@
 .footer {
   background-color: $mainBlue;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
   padding: 7rem 0px;
   text-align: center;
@@ -48,7 +48,7 @@
 }
 .footer__title {
   color: $mainWhite;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .footer__btns {
@@ -67,6 +67,9 @@
   }
 }
 
+.footer__btn-row {
+  display: flex;
+}
 .footer__btn-icon {
   display: flex;
   align-items: center;

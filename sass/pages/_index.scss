@@ -1,7 +1,10 @@
 @import "./home";
 @import "./landing";
 @import "./landing2";
-@import "./landing3.scss";
+@import "./landing3";
+@import "./about";
+@import "./contact";
+@import "./team";
 
 .section__title {
   font-size: 3.2rem;
@@ -15,14 +18,14 @@
   color: $secondaryBlue;
   margin: auto;
 }
-.section__supertitle{
+.section__supertitle {
   font-weight: 400;
   font-size: 4rem;
   line-height: 5.2rem;
 
-  color:$mainBlue;  
+  color: $mainBlue;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
 .section__text {
@@ -34,137 +37,125 @@
 .box-shadow {
   box-shadow: $box-shadow;
 }
-.hero__content{
+.hero__content {
   margin-top: 5rem;
 }
-.presentation__content{
+.presentation__content {
   margin-top: -30rem;
   position: relative;
   z-index: 1;
 }
-.ml-2{
+.ml-2 {
   margin-left: 2.5rem;
 }
+
 .logo-icon__brand {
   padding: 2rem;
   font-size: 4.75rem;
   color: $mainRed;
   border-radius: 50%;
-
 }
-.logo-icon__bg{
+.logo-icon__bg {
   display: inline-block;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.icon-Blue{
+.icon-Blue {
   color: $secondaryBlue;
 }
-.icon-Red{
+.icon-Red {
   color: $mainRed;
 }
-.icon-yellow{
+.icon-yellow {
   color: $mainYellow;
 }
-.text-tertiary{
+.text-tertiary {
   color: $text-muted;
 }
-.text-muted{
+.text-muted {
   color: $text-muted;
 }
-// .font-weight-bolder {
 
-// }
-.text-gray{
+.text-gray {
   color: $secondaryBlue;
 }
-.py{
+.py {
   padding: 10rem;
 }
-.mapbooks, .dashboard {
+.mapbooks,
+.dashboard {
   background-color: $mainlight;
 }
-.pricing{
-  background-color:  #1c68c4;
+.pricing {
+  background-color: #1c68c4;
 }
-.mapbooks .container .row{
+.mapbooks .container .row {
   justify-content: space-between;
 }
-.dashboard .container .row{
+.dashboard .container .row {
   justify-content: space-between;
 }
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
 }
-.navbar{
+.navbar {
   z-index: 3;
 }
-.suptitle{
+.suptitle {
   font-weight: 400;
   font-size: 1.9rem;
   line-height: 3.2rem;
-  color: #424767;  
+  color: #424767;
 }
-.text-primary, .text-primary:hover {
-  color: #0d1b48!important;
+.text-primary,
+.text-primary:hover {
+  color: #0d1b48 !important;
 }
-.text-subtitle{
+.text-subtitle {
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.6rem;
-  color: #424767;  
+  color: #424767;
 }
 
-.awesome{
-  background-color: #0D1B48;
+.awesome {
+  background-color: #0d1b48;
 }
-.lead{
+.lead {
   font-weight: 400;
   font-size: 2rem;
   line-height: 3.2rem;
   text-align: center;
-  color: $mainWhite;   
+  color: $mainWhite;
 }
-.h1{
+.h1 {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: $mainWhite; 
+  color: $mainWhite;
 }
-.d-lg-none{
+.d-lg-none {
   font-style: normal;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.1rem;
-  color: #0D1B48;  
+  color: #0d1b48;
 }
-.bg-whitee{
+.bg-white {
   background-color: $mainWhite;
 }
-.rounded{
+.rounded {
   border-radius: 10px;
 }
-.text-secondary{
-  color:$mainRed;
+.text-secondary {
+  color: $mainRed;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.accardion-row{
+.accardion-row {
   justify-content: space-between;
 }
 .accordion {
@@ -179,11 +170,12 @@
   font-size: 15px;
   transition: 0.4s;
 }
-.fa-plus{
+.fa-plus {
   float: right;
 }
-.active, .accordion:hover {
-  background-color: #F5F9FE; 
+.active,
+.accordion:hover {
+  background-color: #f5f9fe;
 }
 
 .panel {
