@@ -29,7 +29,7 @@ ul {
 }
 
 .text__secondary {
-  color: #f5f9fe;
+  color: #eee;
 }
 
 .text__danger {
@@ -49,7 +49,7 @@ ul {
 }
 
 .text__muted {
-  color: rgba(255, 255, 255, 0.7019607843);
+  color: #e5e5e5;
 }
 
 .container {
@@ -1022,12 +1022,12 @@ ul {
 }
 
 .btn__secondary {
-  background-color: #f5f9fe;
-  border-color: #f5f9fe;
+  background-color: #eee;
+  border-color: #eee;
   color: #ffffff;
 }
 .btn__secondary:hover {
-  background: #c7ddf9;
+  background: #d5d5d5;
   color: #ffffff;
 }
 
@@ -1124,7 +1124,7 @@ ul {
 .landing2__header {
   height: 9rem;
   width: 100%;
-  background-color: #f5f9fe;
+  background-color: #eee;
 }
 
 .landing2_nav {
@@ -1261,7 +1261,7 @@ ul {
 }
 
 .footer__col-text {
-  color: rgba(255, 255, 255, 0.7019607843);
+  color: #e5e5e5;
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -1290,7 +1290,7 @@ ul {
   text-align: start;
 }
 .footer__btn:hover {
-  background-color: rgba(255, 255, 255, 0.7019607843);
+  background-color: #e5e5e5;
 }
 
 .footer__btn-icon {
@@ -1363,57 +1363,6 @@ section.hero .fill-white {
   height: 90vh;
   width: 100%;
   margin-top: -9rem;
-}
-
-.hero__about {
-  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  width: 100%;
-  margin-top: -9rem;
-}
-
-section.hero {
-  background-color: #0d1b48;
-  color: #ffffff;
-  padding: 2rem 0;
-  text-align: center;
-}
-section.hero .hero__text {
-  color: #ffffff;
-}
-
-.facebook {
-  color: #3b5999;
-}
-
-.slack {
-  color: #3aaf85;
-}
-
-.dribbble {
-  color: #db4337;
-}
-
-.twitter {
-  color: #1da1f2;
-}
-
-.hero__contact {
-  background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  width: 100%;
-  margin-top: -9rem;
-}
-
-.landing2 {
-  background-color: #ffffff;
-  color: #0d1b48;
 }
 
 .section__title {
