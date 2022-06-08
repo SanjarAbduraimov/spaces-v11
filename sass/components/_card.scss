@@ -12,8 +12,9 @@
   align-items: stretch;
   flex-wrap: nowrap;
   background-color: $mainWhite;
+  border-color: $borderColor;
   border-radius: 4px;
-  overflow: hidden;
+  // overflow: hidden;
   &.shadow {
     box-shadow: $shadow;
   }

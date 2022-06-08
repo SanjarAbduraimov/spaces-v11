@@ -20,3 +20,65 @@ section.hero {
 .twitter{
     color: $twitter;
 }
+.team_cards{
+    position: relative;
+    top: -200px;
+    z-index: 10;
+}
+.team_card{
+    border: 1px solid #edf0f7;
+    position: relative;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+}
+.card-img-top{
+    position: absolute;
+    border-radius: 50%;
+    top: -80px;
+    text-align: center;
+}
+.team_card .card-title{
+    padding-top: 80px;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.members .section__title{
+    font-size: 8rem;
+    line-height: 4.2rem;
+     color: $mainBlue;
+     font-weight: 500;
+}
+.members span{
+    display: flex;
+    justify-content: center;
+    
+    p{
+        margin-top: -25px;
+    }
+}
+
+.members .col-7 p{
+    font-size: 20px;
+}
+.medias{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.seeJob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f9fe!important;
+    height: 350px;
+    padding-top:40px;
+    .section__text{
+        font-size: 20px;
+    }
+}
