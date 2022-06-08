@@ -985,10 +985,10 @@ ul {
   padding: 10px;
   color: #ffffff;
 }
-.card.card__overlay .card__imgtop:hover {
+.card.card__overlay .card__imgtop:hover, .card.card__overlay .card__text:hover {
   transform: scale(1);
 }
-.card.card__overlay .card__imgtop:hover + .card__body {
+.card.card__overlay .card__imgtop:hover + .card__body, .card.card__overlay .card__text:hover + .card__body {
   opacity: 2;
   visibility: visible;
   transition: all 0.1s ease-in-out;
