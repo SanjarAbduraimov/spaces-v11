@@ -1475,6 +1475,10 @@ section.hero .fill-white {
   border-radius: 50%;
 }
 
+.card__img {
+  color: rgb(13, 27, 72);
+}
+
 .section__title {
   font-size: 3.2rem;
   line-height: 4.2rem;
