@@ -5,9 +5,69 @@
       rgba(13, 27, 72, 0.836) 100%
     ),
     url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);
+  // clip-path: polygon(0 1%, 0% 20%, 0 53%, 0% 80%, 23% 71%, 46% 80%, 74% 89%, 100% 80%, 100% 52%, 100% 20%, 100% 0, 51% 0);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   padding-top: 9rem;
+}
+.about__title {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: 600;
+  line-height: 3.0rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.hero__subtitle{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.body__title{
+  color:#fff;   
+  font: optional;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.max-width{
+  max-width: 70rem;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-color__light{
+  background-color: $mainlight;
+}
+.border-px{
+  border:1px $secondaryBlue;
+}
+.logo-icon__brand__blue{
+  padding: 2rem;
+  font-size: 4.75rem;
+  color: $mainBlue;
+  border-radius: 50%;
+}
+.card__img{
+  color: rgba(13, 27, 72, 1);
+}
+.card__text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.6rem;
+color: #424767;
+}
+.icons{
+  margin-right: 3px;
 }
