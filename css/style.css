@@ -1171,7 +1171,7 @@ header.unpinned {
 .landing2__header {
   height: 9rem;
   width: 100%;
-  background-color: #eee;
+  background-color: #0d1b48;
 }
 
 .landing2_nav {
@@ -1415,6 +1415,269 @@ section.hero .fill-white {
   height: 90vh;
   width: 100%;
   margin-top: -9rem;
+}
+
+.landing22__header {
+  height: 9rem;
+  width: 100%;
+  background-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.hero__landing2 {
+  background-color: rgba(109, 116, 255, 0.0745098039);
+  padding-top: 11rem;
+}
+
+.landing__hero {
+  padding-bottom: 30rem;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group-prepend {
+  margin-right: -2px;
+}
+
+group-prepend {
+  display: flex;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4e5079;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border-left: 0.0625rem solid #edf0f7;
+  border-right-style: none;
+  border-radius: 1rem;
+}
+
+.input-group-text {
+  font-size: 1.125rem;
+  padding: 1.6rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#span {
+  font-size: large;
+}
+
+.landing2__flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.landing2_card {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.landing2__img {
+  overflow: hidden;
+  object-fit: cover;
+  border-style: hidden;
+}
+
+.imgss {
+  margin-top: -5rem;
+}
+
+.hero2__title {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.text__landing2 {
+  margin-top: 3rem;
+}
+
+.text__in {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 150%;
+  width: 90%;
+}
+
+b {
+  font-weight: 500;
+}
+
+.landing2__btn {
+  width: 100%;
+  padding: 1.3rem 0;
+  border-radius: 0.8rem;
+  margin-top: 3.3rem;
+}
+
+.card__landing2 {
+  margin-top: -22rem;
+}
+
+.form-control {
+  width: 91%;
+  align-items: center;
+  font-size: large;
+  padding-left: 1rem;
+  border: 1px solid;
+  border-style: double;
+  border-color: rgba(109, 116, 255, 0.0745098039);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.autocomplete {
+  margin-top: -0.1rem;
+  margin-bottom: -0.1rem;
+  margin-left: -1%;
+}
+
+.group__inputss {
+  margin-top: 2.5rem;
+}
+
+.row__landing2 {
+  margin-top: 2rem;
+}
+
+.colmun {
+  margin-left: -1rem;
+}
+
+.custom-select {
+  width: 70%;
+  font-size: large;
+  border: 1px solid;
+  border-style: double;
+  border-color: rgba(109, 116, 255, 0.0745098039);
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.columnn {
+  margin-right: 3.3rem;
+}
+
+.card2__title {
+  font-size: 2.1rem;
+  line-height: 4.2rem;
+  font-weight: 500;
+  color: #0d1b48;
+  padding-left: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.card__reiteng {
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+  color: #ffd901;
+}
+
+.badge-primary {
+  color: #ffffff;
+  padding: 0 1.2rem;
+  background-color: #0d1b48;
+  margin-left: 0.5rem;
+  border: 1px solid #0d1b48;
+  border-style: double;
+  border-radius: 2rem;
+}
+
+.card2__text {
+  padding-left: 1.5rem;
+  color: #424767;
+}
+
+.text__colors {
+  margin-top: 2rem;
+}
+
+.card_subtext {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #424767;
+  padding-left: 1rem;
+}
+
+.card_subtexts {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+
+.card__footers {
+  margin: -1rem;
+  padding-left: 1.6rem;
+  color: #424767;
+  background-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.ends {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.top__coworking {
+  margin-top: 13rem;
+}
+
+.title__landing22 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__inner {
+  border-radius: 1rem;
+  margin-top: 10rem;
+}
+
+.textss {
+  margin-top: 1rem;
+}
+
+.remote__workers {
+  margin-top: 12rem;
+  padding-top: 12rem;
+  background-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.remote__title {
+  font-size: 4rem;
+}
+
+.text__title {
+  font-size: 2rem;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+.padding1 {
+  margin-top: 1.5rem;
+}
+
+.row__remote {
+  margin-top: 10rem;
 }
 
 .hero__about {
