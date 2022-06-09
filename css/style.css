@@ -1289,7 +1289,7 @@ header.unpinned {
 }
 
 .footer__col-link {
-  display: block;
+  display: inline-block;
   color: #ffffff;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -1305,6 +1305,7 @@ header.unpinned {
   border-radius: 5px;
   background-color: #c33c54;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .footer__col-text {
@@ -1313,9 +1314,10 @@ header.unpinned {
   margin-bottom: 1rem;
 }
 
-.footer-text {
+.footer__text {
   color: #ffffff;
   font-size: 1.6rem;
+  width: 80%;
   margin-top: 1.5rem;
 }
 
@@ -1335,6 +1337,7 @@ header.unpinned {
   background-color: #ffffff;
   color: #0d1b48;
   text-align: start;
+  cursor: pointer;
 }
 .footer__btn:hover {
   background-color: #e5e5e5;
