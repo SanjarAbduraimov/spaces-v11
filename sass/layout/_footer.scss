@@ -18,7 +18,7 @@
 }
 
 .footer__col-link {
-  display: block;
+  display: inline-block;
   color: $mainWhite;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -34,6 +34,7 @@
   border-radius: 5px;
   background-color: $mainRed;
   color: $mainWhite;
+  cursor: pointer;
 }
 
 .footer__col-text {
@@ -41,9 +42,10 @@
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-.footer-text {
+.footer__text {
   color: $mainWhite;
   font-size: 1.6rem;
+  width: 80%;
   margin-top: 1.5rem;
 }
 .footer__title {
@@ -62,6 +64,7 @@
   background-color: $mainWhite;
   color: $mainBlue;
   text-align: start;
+  cursor: pointer;
   &:hover {
     background-color: $secondaryWhite;
   }
