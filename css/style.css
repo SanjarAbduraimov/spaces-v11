@@ -1478,6 +1478,168 @@ section.hero .fill-white {
   border-radius: 50%;
 }
 
+.card__img {
+  color: rgb(13, 27, 72);
+}
+
+.card__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+
+.icons {
+  margin-right: 3px;
+}
+
+.contact .fw-bolder {
+  font-weight: 500;
+  color: #000000;
+}
+.contact .text-center {
+  text-align: center;
+}
+.contact .text-danger {
+  color: #c33c54 !important;
+}
+.contact iframe {
+  width: 100%;
+}
+.contact .fas {
+  color: #0d1b48;
+}
+.contact form .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .socials {
+  display: flex;
+  justify-content: center;
+}
+.contact .card-text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+.contact .card-title {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: #424767;
+}
+.contact input[type=text], .contact textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact input[type=submit] {
+  width: 100%;
+  background-color: #c33c54;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact input[type=submit]:hover {
+  background-color: #b32b44;
+}
+
+.team section.hero {
+  position: relative;
+  background-color: #0d1b48;
+  color: #ffffff;
+  padding: rem 0;
+}
+.team .hero__team {
+  text-align: center;
+  background-color: #0d1b48;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+.team .hero__team .hero__text {
+  color: #ffffff;
+}
+.team .facebook {
+  color: #3b5999;
+}
+.team .slack {
+  color: #3aaf85;
+}
+.team .dribbble {
+  color: #DB4337;
+}
+.team .twitter {
+  color: #1da1f2;
+}
+.team .team_cards {
+  position: relative;
+  top: -200px;
+  z-index: 10;
+}
+.team .team_card {
+  border: 1px solid #edf0f7;
+  position: relative;
+}
+.team .card-img {
+  display: flex;
+  justify-content: center;
+}
+.team .card-img-top {
+  position: absolute;
+  border-radius: 50%;
+  top: -80px;
+  text-align: center;
+}
+.team .team_card .card-title {
+  padding-top: 80px;
+}
+.team .members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team .members .section__title {
+  font-size: 8rem;
+  line-height: 4.2rem;
+  color: #0d1b48;
+  font-weight: 500;
+}
+.team .members span {
+  display: flex;
+  justify-content: center;
+}
+.team .members span p {
+  margin-top: -25px;
+}
+.team .members .col-7 p {
+  font-size: 20px;
+}
+.team .medias {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.team .seeJob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f9fe !important;
+  height: 350px;
+  padding-top: 40px;
+}
+.team .seeJob .section__text {
+  font-size: 20px;
+}
+
 .section__title {
   font-size: 3.2rem;
   line-height: 4.2rem;

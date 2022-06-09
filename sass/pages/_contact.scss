@@ -1,4 +1,5 @@
-.fw-bolder{
+.contact{
+  .fw-bolder{
     font-weight: 500;
     color: $mainBlack;
 }
@@ -60,6 +61,5 @@ input[type=text],textarea {
   input[type=submit]:hover {
     background-color: #b32b44;
   }
-  label{
-    
-  }
+
+}

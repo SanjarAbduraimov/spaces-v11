@@ -1,23 +1,30 @@
-section.hero {
-  background-color: $mainBlue;
-  color: $mainWhite;
-  padding: 2rem 0;
-  text-align: center;
-  .hero__text {
+.team{
+    section.hero {
+    position: relative;
+    background-color: $mainBlue;
     color: $mainWhite;
-  }
+    padding: rem 0;
 }
-.facebook {
-  color: $facebook;
+.hero__team{
+    text-align: center;
+    background-color: $mainBlue;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    .hero__text{
+        color: $mainWhite;
+    }
 }
-.slack {
-  color: $slack;
+.facebook{
+    color: $facebook;
 }
-.dribbble {
-  color: $dribbble;
+.slack{
+    color: $slack;
 }
-.twitter {
-  color: $twitter;
+.dribbble{
+    color: $dribbble;
+}
+.twitter{
+    color: $twitter;
 }
 .team_cards{
     position: relative;
@@ -80,4 +87,5 @@ section.hero {
     .section__text{
         font-size: 20px;
     }
+}
 }
