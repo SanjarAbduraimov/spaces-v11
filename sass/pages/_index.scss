@@ -50,10 +50,10 @@
 }
 
 .logo-icon__brand {
-  padding: 2rem;
+  // padding: 2rem;
   font-size: 4.75rem;
   color: $mainRed;
-  border-radius: 50%;
+  // border-radius: 50%;
 }
 .logo-icon__bg {
   display: inline-block;
@@ -148,19 +148,34 @@
 .bg-white {
   background-color: $mainWhite;
 }
+.brend-logo__rounded {
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+}
 .rounded {
   border-radius: 10px;
+}
+.p-15{
+  padding: 1rem;
+}
+.bg-white{
+  background-color: white;
 }
 .text-secondary {
   color: $mainRed;
 }
-
+.pp-4{
+  padding: 1rem;
+}
 .accardion-row {
   justify-content: space-between;
 }
 .accordion {
   background-color: $mainWhite;
-  // color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;

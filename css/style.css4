@@ -1121,13 +1121,6 @@ ul {
   color: #ffffff;
 }
 
-.btn-premaryy {
-  background-color: #0d1b48;
-  color: white !important;
-  width: 100%;
-  padding: 1rem 0;
-}
-
 .btn__outline__smoll:hover {
   background: #0d1b48;
   color: #ffffff;
@@ -1823,20 +1816,8 @@ section.hero .hero__text {
   border-radius: 10px;
 }
 
-.p-15 {
-  padding: 1rem;
-}
-
-.bg-white {
-  background-color: white;
-}
-
 .text-secondary {
   color: #c33c54;
-}
-
-.pp-4 {
-  padding: 1rem;
 }
 
 .accardion-row {
@@ -1872,4 +1853,4 @@ section.hero .hero__text {
   overflow: hidden;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css4.map */
