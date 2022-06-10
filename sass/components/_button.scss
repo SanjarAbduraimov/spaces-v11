@@ -97,7 +97,13 @@ $btnColor: (
   background-color:#172755 ;
   color: $mainWhite;
 }
-
+.btn-premaryy{
+  background-color: $mainBlue;
+  color: white !important;
+  width: 100%;
+  // margin: 0 1rem;
+  padding: 1rem  0;
+}
 .btn__outline__smoll:hover{
   background: $mainBlue;
   color: $mainWhite;
