@@ -3,6 +3,17 @@
     font-weight: 500;
     color: $mainBlack;
 }
+.contact__hero{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: #0d1b48fd;
+    .hero__text{
+        color: $mainWhite;
+    }
+}
 .text-center{
     text-align: center;
 }
@@ -11,8 +22,12 @@
 }
 
 iframe{
-    width: 100%;
+    position: absolute;
+    width: 89%;
+    // z-index: 10;
+    margin-top: -80px;
 }
+
 
 .fas{
     color: $mainBlue;

@@ -11,6 +11,7 @@
   backdrop-filter: blur(10px);
   background-color: $mainBlue;
   width: 100%;
+  z-index: 99;
 }
 
 header.pinned {
