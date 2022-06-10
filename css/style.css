@@ -1926,6 +1926,70 @@ section.hero .hero__text {
   font-size: 20px;
 }
 
+.pricing__hero {
+  background-color: #ffffff;
+}
+
+.pricing__hero--title {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: #0d1b48;
+  margin-top: 23px;
+  margin: auto;
+}
+
+.pricing__hero--subtitle {
+  max-width: 75rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: #424767;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pricing__card--title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #424767;
+}
+
+#pricing__hero--btn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+
+.pricing__visibility--card {
+  margin: auto;
+  align-items: center;
+}
+
+.pricing__visibility--cardtitle {
+  color: #0d1b48;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.pricing__visibility--cardsubtitle {
+  width: 400px;
+  color: #424767;
+  line-height: 28px;
+}
+
+.credit-cards {
+  height: 280px;
+}
+
+.pricing__bottom--link {
+  color: #c33c54;
+}
+
 .section__title {
   font-size: 3.2rem;
   line-height: 4.2rem;
