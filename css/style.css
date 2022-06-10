@@ -1414,7 +1414,7 @@ section.hero .fill-white {
   height: 90vh;
   width: 100%;
   margin-top: -9rem;
-  padding-top: 9rem;
+  z-index: 1;
 }
 
 .hero__about {
