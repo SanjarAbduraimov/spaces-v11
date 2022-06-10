@@ -1,0 +1,78 @@
+
+.find__spacess {
+    margin: 8rem 0;
+    padding: 10rem 4rem;
+    background-image: url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-2.jpg);
+    opacity: .5;
+    border-radius: 1rem;
+}
+.find__landing3 {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+#search-locations {
+    padding-right: 15rem;
+}
+#search-locationsss {
+    padding-right: 11rem;
+}
+#search-location {
+    padding-right: 2rem;
+}
+.section__title {
+    margin-bottom: 3rem;
+}
+.landing3__input-group {
+    display: flex;
+    // border: 1px solid;
+    .landin3__icons {
+        border: 1px solid;
+        padding: 1rem 1.5rem;
+        border-radius: .8rem;
+        border-top-right-radius: 0;        
+        border-bottom-right-radius: 0;  
+        border-color: $Blue-light;   
+
+    }
+    .landing3__in {
+        .landing3__inputs {
+           padding: 1.5rem .8rem;
+           margin-left: -.1rem;
+           border: 1px solid;
+           border-top-right-radius: 0.8rem;        
+           border-bottom-right-radius: .8rem;
+           border-color: $Blue-light;   
+
+
+        }
+        
+    }
+    
+}
+.landing3__input-group:focus {
+    border-color: $whiteBlue;
+}
+.landin3__iconss {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-radius: .8rem;
+    border-color: $Blue-light;   
+}
+.landing3__inn {
+    .landing3__inputs {
+        padding: 1.5rem .8rem;
+        border: 1px solid;
+        border-radius: 0.8rem;        
+        border-color: $Blue-light; 
+        width: 100%;  
+     }
+
+}
+
+
+
+
+
+
+
+

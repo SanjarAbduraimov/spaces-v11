@@ -1418,6 +1418,7 @@ section.hero .fill-white {
   height: 90vh;
   width: 100%;
   margin-top: -9rem;
+  z-index: 1;
 }
 
 .landing22__header {
@@ -1681,6 +1682,74 @@ b {
 
 .row__remote {
   margin-top: 10rem;
+}
+
+.find__spacess {
+  margin: 8rem 0;
+  padding: 10rem 4rem;
+  background-image: url(https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-2.jpg);
+  opacity: 0.5;
+  border-radius: 1rem;
+}
+
+.find__landing3 {
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+#search-locations {
+  padding-right: 15rem;
+}
+
+#search-locationsss {
+  padding-right: 11rem;
+}
+
+#search-location {
+  padding-right: 2rem;
+}
+
+.section__title {
+  margin-bottom: 3rem;
+}
+
+.landing3__input-group {
+  display: flex;
+}
+.landing3__input-group .landin3__icons {
+  border: 1px solid;
+  padding: 1rem 1.5rem;
+  border-radius: 0.8rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: rgba(109, 116, 255, 0.2588235294);
+}
+.landing3__input-group .landing3__in .landing3__inputs {
+  padding: 1.5rem 0.8rem;
+  margin-left: -0.1rem;
+  border: 1px solid;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  border-color: rgba(109, 116, 255, 0.2588235294);
+}
+
+.landing3__input-group:focus {
+  border-color: rgba(109, 116, 255, 0.0745098039);
+}
+
+.landin3__iconss {
+  border: 1px solid;
+  padding: 1rem 1.5rem;
+  border-radius: 0.8rem;
+  border-color: rgba(109, 116, 255, 0.2588235294);
+}
+
+.landing3__inn .landing3__inputs {
+  padding: 1.5rem 0.8rem;
+  border: 1px solid;
+  border-radius: 0.8rem;
+  border-color: rgba(109, 116, 255, 0.2588235294);
+  width: 100%;
 }
 
 .hero__about {
