@@ -1681,6 +1681,34 @@ b {
 
 .row__remote {
   margin-top: 10rem;
+  padding-bottom: 20rem;
+}
+.row__remote .remote__img {
+  width: 87%;
+  margin: auto;
+}
+.row__remote .remote__past {
+  margin-top: 6rem;
+}
+.row__remote .row__remot {
+  align-items: center;
+}
+
+.remote__text--col {
+  margin-left: 7.2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.icon__chair {
+  font-size: 3rem;
+  color: #c33c54;
+}
+
+.title__col--part {
+  color: #0d1b48;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .hero__about {

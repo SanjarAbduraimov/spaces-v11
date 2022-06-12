@@ -230,6 +230,34 @@ b {
 }
 .row__remote {
   margin-top: 10rem;
+  padding-bottom: 20rem;
+  .remote__img {
+    width: 87%;
+    margin: auto;
+  }
+  .remote__past {
+    margin-top: 6rem;
+  }
+  .row__remot {
+    align-items: center;
+    
+  }
+  
+}
+.remote__text--col {
+  margin-left: 7.2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.icon__chair {
+  font-size: 3rem;
+  color: $mainRed;
+}
+.title__col--part {
+  color: $mainBlue;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 
