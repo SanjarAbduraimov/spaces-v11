@@ -1711,6 +1711,106 @@ b {
   font-weight: 500;
 }
 
+.colm__parts_ls {
+  margin: 0 3rem;
+}
+
+.card__landing2__part {
+  border: 1px solid;
+  border-color: rgba(109, 116, 255, 0.0745098039);
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.card__landing2__part .card__img__landing2 {
+  margin: 0 3rem;
+  padding: 5.5rem;
+}
+.card__landing2__part button {
+  margin: 4rem;
+}
+.card__landing2__part .btns__landing2 {
+  border: 1px solid #0d1b48;
+  color: #0d1b48;
+  border-radius: 1rem;
+}
+.card__landing2__part .btns__landing2 p {
+  font-weight: 400;
+}
+.card__landing2__part .btns__landing2:hover {
+  color: #ffffff;
+}
+.card__landing2__part .card__body-landing2 {
+  padding: 0 3.5rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.brands__landing2 {
+  margin-top: -20rem;
+}
+
+.icon__starts--landing2 {
+  padding-top: 2rem;
+  color: #ffff00;
+}
+.icon__starts--landing2 i {
+  cursor: pointer;
+}
+
+.works__landing2 {
+  margin-top: 10rem;
+}
+
+.btn__changea {
+  margin-right: 3rem;
+}
+
+.colm__btns {
+  margin-top: 10rem;
+}
+
+.texts__parts2 p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.ends__same {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.icons__lists-landing2 {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+  background-color: rgba(109, 116, 255, 0.0745098039);
+  padding-top: 2.2rem;
+  border: 1px solid;
+  border-radius: 50%;
+  border-style: hidden;
+}
+.icons__lists-landing2 i {
+  font-size: 5rem;
+}
+
+.list__landing2 {
+  margin-top: 15rem;
+}
+
+.texts__parts2 {
+  margin: 3rem 2.2rem 0 0;
+}
+
+.btnsss__ROW {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .hero__about {
   position: relative;
   background: linear-gradient(90deg, rgba(13, 27, 72, 0.836) 100%, rgba(13, 27, 72, 0.836) 100%), url(https://demo.themesberg.com/bootstrap/spaces/assets/img/team-hero.jpg);

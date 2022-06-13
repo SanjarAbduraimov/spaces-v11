@@ -259,14 +259,103 @@ b {
   font-size: 2rem;
   font-weight: 500;
 }
+.colm__parts_ls {
+  margin: 0 3rem;
+}
+
+.card__landing2__part {
+  border: 1px solid;
+  border-color: $whiteBlue;
+  background-color: $mainWhite;
+  border-radius: 1rem;
+  .card__img__landing2 {
+    margin: 0 3rem;
+    padding: 5.5rem;
+  }
+  button {
+    margin: 4rem;
+    
+  }
+  .btns__landing2 {
+      border: 1px solid $mainBlue;
+      color: $mainBlue;
+      border-radius: 1rem;
+    p {
+      font-weight: 400;
+
+    }     
+  }
+  .btns__landing2:hover {
+    color: $mainWhite;
+  }
+  .card__body-landing2 {
+    padding: 0 3.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+.brands__landing2 {
+  margin-top: -20rem;
+}
+.icon__starts--landing2 {
+  padding-top: 2rem;
+  color: $mainYellow;
+  i {
+    cursor: pointer;
+  }
+}
 
 
+.works__landing2{
+  margin-top: 10rem;
+}
+.btn__changea {
+  margin-right: 3rem;
+}
+.colm__btns {
+  margin-top: 10rem;
+}
+.texts__parts2 {
+  p {
+  font-size: 2rem;
+  font-weight: 500;
 
+  }
+}
+.ends__same {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.icons__lists-landing2 {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+  background-color: $whiteBlue;
+  padding-top: 2.2rem;
+  border: 1px solid;
+  border-radius: 50%;
+  border-style: hidden;
+  i {
+  font-size: 5rem;
+ 
+  }
+}
+.list__landing2 {
+  margin-top: 15rem;
 
-
-
-
-
+}
+.texts__parts2 {
+  margin: 3rem 2.2rem 0 0;
+}
+.btnsss__ROW {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 
 
 
