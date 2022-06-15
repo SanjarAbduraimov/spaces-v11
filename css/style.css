@@ -1808,7 +1808,41 @@ b {
 
 .btnsss__ROW {
   margin-top: 10rem;
-  margin-bottom: 10rem;
+}
+
+.country__colss {
+  padding: 5rem;
+  border: 1px solid rgba(109, 116, 255, 0.0745098039);
+  border-radius: 1rem;
+}
+
+.rows__countrys {
+  padding-top: 1rem;
+}
+
+.country__local {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 2rem;
+}
+
+#countryssss {
+  font-size: 1.8rem;
+}
+
+.country__texts {
+  margin-left: 1rem;
+}
+
+.country__title {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.country__img-location {
+  width: 85%;
+  margin-left: auto;
 }
 
 .hero__about {
